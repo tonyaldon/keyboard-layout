@@ -1,0 +1,68 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "level3(ralt_switch)"
+    include "keypad(oss)"
+
+    name[Group1]= "Tony Aldon (kbl basic form)";
+
+    // First row
+    key <TLDE> { [bracketleft ] }; //     
+    key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [bracketright	] }; // 
+    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [	less,           less,   	braceleft       ] }; // < < {  
+    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  greater,        greater,	braceright	] }; // > > }    
+    key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	p,              P,		quotedbl	] }; // p P " 
+    key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  k,		K,              asciitilde	] }; // k K ~
+    key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  slash,        slash,  backslash 			] }; // =  ^
+    key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  plus      			] }; // + /
+    key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  minus	            		] }; // - *  
+    key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  asterisk, 		1, 		1,	1   	] }; // 1   
+    key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  asciicircum, 		2, 		2, 	2   	] }; //  
+    key <AE11> { [ guillemotleft, leftdoublequotemark,	     3, 		leftsinglequotemark         	] }; // « “ 3 ‘ 
+    key <AE12> { [ guillemotright, rightdoublequotemark,     endash, 		rightsinglequotemark    	] }; // » ” – ’ 
+
+    // Second row
+    key <AD01> { [               w,            W,        dead_circumflex              ] }; // w W ^  
+    key <AD02> { [               b,            B,      parenleft       ] }; // b B ( [
+    key <AD03> { [               n,            N,      parenright     ] }; // n N ) ]  
+    key <AD04> { [               f,	       F,      dead_grave    		   ] }; // f F ` 
+    key <AD05> { [               Tab, 	       Tab     		 		   ] }; // Tab Tab
+    key <AD06> { [               v,            V,       bar    			   ] }; // v V |
+    key <AD07> { [               q,            Q,	dollar			   ] }; // q Q $
+    key <AD08> { [               d,            D,	Up	   ] }; // d D &
+    key <AD09> { [               l,            L,	    4                 	   ] }; // l L 4 
+    key <AD10> { [               j,            J,	    5 			   ] }; // j J 5
+    key <AD11> { [               z,            Z,     	    6,     	minutes    ] }; // z Z 6 ′ 
+    key <AD12> { [               emdash,       second                  		   ] }; //  — ″
+
+    // Third row
+    key <AC01> { [               a,            A,	 exclam,     exclamdown	   ] }; // a A ! ¡
+    key <AC02> { [               u,            U, 	 question,   questiondown  ] }; // u U ? ¿
+    key <AC03> { [               i,            I, 	 period,     dead_diaeresis] }; // i I .  ̈ 
+    key <AC04> { [               e,            E,        dead_acute 	       	   ] }; // e E ˊ
+    key <AC05> { [           	 BackSpace,    BackSpace, comma          	   ] }; // BackSpace BackSpace ,
+    key <AC06> { [          	 t,            T, 	percent 		   ] }; // t T %
+    key <AC07> { [               0xfe03,       0xfe03,   Left,         Left 	   ] }; // Altgr Altgr  
+    key <AC08> { [               s,            S,      	Down       ] }; // s S #
+    key <AC09> { [               r,            R,     	7, 		Right 	   ] }; // r R 7 
+    key <AC10> { [               m,            M,     	8		 	   ] }; // m M 8 
+    key <AC11> { [               ccedilla,	Ccedilla,     	9 		   ] }; //  9 ç Ç 
+    key <BKSL> { [         	 0xfe03						   ] }; // Altgr
+
+    // Fourth row
+    key <LSGT> { [		0xfe03						   ] }; // Altgr                            
+    key <AB01> { [         	 y,            Y,      dead_tilde         	   ] }; // o O ~
+    key <AB02> { [               x,            X,      colon         		   ] }; // x X :  
+    key <AB03> { [               o,           O,      semicolon      		   ] }; // 
+    key <AB04> { [               Return,       Return, apostrophe		   ] }; //  Return Returnt '
+    key <AB05> { [              			 equal                   ] }; // 
+    key <AB06> { [          	 c,            C,      at   	       		   ] }; // c C @
+    key <AB07> { [               0xffe4            	  			   ] }; // Control_R  
+    key <AB08> { [               g,            G,     ampersand    	                  	   ] }; // g G &
+    key <AB09> { [               h,            H,     numbersign          	 		   ] }; // h H #
+    key <AB10> { [               EuroSign,     paragraph, 0, 	section  	   ] }; // € ¶ 0 §
+
+    key <SPCE> { [           space, nobreakspace,     underscore,          U202F ] }; // ␣ (espace insécable) _ (espace insécable fin)
+};
+
+
