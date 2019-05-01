@@ -16,10 +16,10 @@ xkb_symbols "basic" {
     key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  dollar, 				dollar, 				EuroSign   			                 ] }; // $ $ €
     key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  plus, 					plus, 					asterisk  			                 ] }; // + + *
     key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  minus, 					minus,					asciicircum			                 ] }; // - - ^
-    key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  0, 							0,							period   				                 ] }; // 0	0 .
-    key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  1, 							1   														                 ] }; // 1 1 
-    key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	2, 							2 		         									                 ] }; // 2 2
-    key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  3, 							3   														                 ] }; // 3 3
+    key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  0, 							0							        				                   ] }; // 0 0 
+    key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  1, 							1,       				plus														 ] }; // 1 1 +
+    key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	2, 							2,							asterisk 		         						 ] }; // 2 2 *
+    key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  3, 							3,							minus   												 ] }; // 3 3 -
 
     // Second row
     key <AD01> {                                             [  w,              W,              dead_circumflex                  ] }; // w W ^  
@@ -33,7 +33,7 @@ xkb_symbols "basic" {
     key <AD09> {                                             [  l,              L,	    				equal                            ] }; // l L = 
     key <AD10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  j,              4,              J 			                         ] }; // j 4 J
     key <AD11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  z,              5,              Z                                ] }; // z 5 Z
-    key <AD12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  6,   						6                  		                           ] }; // 6 6
+    key <AD12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  6,   						6,							period                  		     ] }; // 6 6 .
 
     // Third row
     key <AC01> {                                             [  a,              A,              bracketleft 	 	                 ] }; // a A [ 
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AC09> {                                             [  r,              R,     					Right 	   											 ] }; // r R <right>
     key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  m,              7,							M	 	   													 ] }; // m 7 M
     key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  ccedilla,     	8, 							Ccedilla 		   									 ] }; // ç 8 Ç 
-    key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  9,							9						   																	 ] }; // 9 9
+    key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  9,							9,						  asciicircum											 ] }; // 9 9
 
     // Fourth row
     key <LSGT> {                                             [ exclam,			    exclamdown,     question,       questiondown     ] }; // ! ¡ ? ¿
@@ -60,7 +60,7 @@ xkb_symbols "basic" {
     key <AB07> {                                             [ 0xffe4            	  			   		      						 							 ] }; // Control_R  
     key <AB08> {                                             [ g,            		G,              ampersand    	                   ] }; // g G &
     key <AB09> {                                             [ h,            		H,              numbersign          	 		   		 ] }; // h H #
-    key <AB10> {                                             [   ] }; // 
+    key <AB10> {                                             [ 0,               0																								 ] }; // 0 0
 
     key <SPCE> { 																						 [ space, 	        space,				  underscore                       ] }; // space space _ 
 };
