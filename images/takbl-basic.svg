@@ -228,17 +228,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8774352"
-     inkscape:cx="443.65006"
-     inkscape:cy="121.96237"
+     inkscape:zoom="1.1743649"
+     inkscape:cx="373.38553"
+     inkscape:cy="127.92179"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="997"
-     inkscape:window-height="716"
-     inkscape:window-x="328"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -1238,7 +1238,7 @@
           <text
              style="font-weight:bold;font-size:17.92740631px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
              y="670.19946"
-             x="255.4614"
+             x="265.4614"
              id="text3912">[</text>
           <text
              style="font-weight:bold;font-size:17.92740631px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
@@ -1407,17 +1407,17 @@
         <text
            id="text3950"
            x="679.69489"
-           y="552.28967"
+           y="554.28967"
            style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">1</text>
         <text
            id="text3952"
            x="733.11499"
-           y="552.44653"
+           y="554.44653"
            style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">2</text>
         <text
            id="text3954"
            x="786.48846"
-           y="552.20605"
+           y="554.20605"
            style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">3</text>
         <text
            id="text3956"
@@ -1456,11 +1456,37 @@
            x="761.63678"
            y="603.29932"
            style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">5</text>
+        <text
+           style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none"
+           y="704.11707"
+           x="741.14813"
+           id="text3621">0</text>
+        <text
+           id="text3623"
+           x="703.03546"
+           y="571.02539"
+           style="font-weight:bold;font-size:17.92741203px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">+</text>
+        <text
+           id="text3625"
+           x="756.37903"
+           y="572.49066"
+           style="font-weight:bold;font-size:17.92742538px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">∗</text>
+        <text
+           id="text3631"
+           x="812.84485"
+           y="571.79626"
+           style="font-weight:bold;font-size:17.92739868px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">-</text>
+        <text
+           style="font-weight:bold;font-size:16.88272667px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none"
+           y="751.61719"
+           x="767.04688"
+           id="text3633"
+           transform="scale(1.114858,0.89697523)">^</text>
       </g>
       <text
-         style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none;"
-         y="568.1839"
-         x="651.39209"
+         style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none"
+         y="620.1839"
+         x="839.39209"
          id="text4969">.</text>
     </g>
     <g
