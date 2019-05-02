@@ -18,8 +18,8 @@ xkb_symbols "basic" {
     key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  minus, 					minus,					asciicircum			                 ] }; // - - ^
     key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  0, 							0							        				                   ] }; // 0 0 
     key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  1, 							1,       				plus														 ] }; // 1 1 +
-    key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	2, 							2,							asterisk 		         						 ] }; // 2 2 *
-    key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  3, 							3,							minus   												 ] }; // 3 3 -
+    key <AE11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	2, 							2,							minus   		         						 ] }; // 2 2 -
+    key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  3, 							3,							asterisk 												 ] }; // 3 3 *
 
     // Second row
     key <AD01> {                                             [  w,              W,              dead_circumflex                  ] }; // w W ^  
