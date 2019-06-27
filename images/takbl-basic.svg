@@ -228,17 +228,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.5030429"
-     inkscape:cx="562.66159"
-     inkscape:cy="160.89596"
+     inkscape:zoom="1.0460333"
+     inkscape:cx="423.98267"
+     inkscape:cy="127.87474"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="744"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -1478,10 +1478,10 @@
            style="font-weight:bold;font-size:17.92739868px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none">-</text>
         <text
            style="font-weight:bold;font-size:16.88272667px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none"
-           y="751.61719"
-           x="767.04688"
+           y="749.38745"
+           x="765.25293"
            id="text3633"
-           transform="scale(1.114858,0.89697523)">^</text>
+           transform="scale(1.114858,0.89697523)">/</text>
       </g>
       <text
          style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#fe9222;fill-opacity:1;stroke:none"

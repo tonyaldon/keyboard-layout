@@ -56,28 +56,7 @@ Entry Settings`.
 Go to: `System Settings > Keyboard > Typing > Text Entry`, then  click on `+` and
 choose `Tony Aldon (kbl basic form)`.
 
-
-
-# Get more
-
-To get more insight into keyboard layouts, keyboards and keybindings, I would urge
-you to have a look at the tutorials and articles below.
-
-[note] I'm writing them, and I'll push the tutorials on GitHub and
-post the articles on [medium](https://medium.com/@tonyaldon) in the
-next few weeks.
-
-1. Tutorials
-   * Keyboard layout: create your own in 10 minutes.
-   * Keyboard layout: modify qwerty keyboard layout to fit small needs in 10 minutes.
-   * Keyboard: some command lines to master your keyboard in 10 minutes.
-   * Keybindings: start to use useful existing keybindings in 10 minutes
-   * Keybindings:  add your own keybindings to fit your workflow in 10 minutes
-
-2. Articles
-   * DVORAK, BÉPO, TYPEMATRIX , three existing keyboard layout alternatives to QWERTY.
-   * Why keyboard layout is a serious topic? 
-   * This is how I thought and tuned my keyboard layout?
+Or, if you prefer you can run `setxkbmap -layout takbl` in your terminal.
 
 # Contact
 
