@@ -8,7 +8,7 @@ xkb_symbols "basic" {
 
     // First row
     key <TLDE> { [ ] }; // 
-    key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [	] }; // 
+    key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [	grave ] }; // 
     key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [	less,           less,						braceleft                        ] }; // < < {  
     key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  greater,        greater,				braceright			                 ] }; // > > }    
     key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	p,              P, 							Prior						                 ] }; // p P <prior>  

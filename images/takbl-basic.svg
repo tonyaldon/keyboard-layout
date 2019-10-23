@@ -228,16 +228,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0460333"
-     inkscape:cx="423.98267"
-     inkscape:cy="127.87474"
+     inkscape:zoom="1.4793145"
+     inkscape:cx="228.8775"
+     inkscape:cy="129.20839"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="768"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1276"
+     inkscape:window-height="967"
+     inkscape:window-x="1366"
+     inkscape:window-y="36"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -1188,196 +1188,202 @@
        id="text4019"
        x="322.51776"
        y="603.98529">N</text>
+    <text
+       style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
+       y="671.22211"
+       x="371.39212"
+       id="text3936">.</text>
     <g
-       id="g4884">
+       id="g4495">
       <text
-         id="text3894"
-         x="676.16138"
-         y="620.38147"
-         style="font-weight:bold;font-size:17.92741394px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">=</text>
-      <g
-         id="g4830">
-        <text
-           id="text3922"
-           x="468.7597"
-           y="596.21167"
-           style="font-weight:bold;font-size:18.95226669px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;"
-           transform="scale(1.0412161,0.96041542)">€</text>
-        <g
-           id="g3651">
-          <text
-             id="text3870"
-             x="464.57874"
-             y="571.94092"
-             style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">$</text>
-          <text
-             id="text3872"
-             x="712.88794"
-             y="722.95233"
-             style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">#</text>
-          <text
-             id="text3880"
-             x="301.65881"
-             y="620.9679"
-             style="font-weight:bold;font-size:17.92741585px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">(</text>
-          <text
-             id="text3882"
-             x="411.54868"
-             y="620.9679"
-             style="font-weight:bold;font-size:17.92741585px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">)</text>
-          <text
-             id="text3884"
-             x="549.25153"
-             y="720.43243"
-             style="font-weight:bold;font-size:17.92742729px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">@</text>
-          <text
-             id="text3896"
-             x="531.95343"
-             y="670.40704"
-             style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">%</text>
-          <text
-             style="font-weight:bold;font-size:17.92740631px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="670.19946"
-             x="265.4614"
-             id="text3912">[</text>
-          <text
-             style="font-weight:bold;font-size:17.92740631px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="670.19946"
-             x="321.53073"
-             id="text3914">]</text>
-          <text
-             style="font-weight:bold;font-size:17.92745972px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="620.97449"
-             x="516.125"
-             id="text3918"
-             transform="scale(1.0000023,0.99999771)">|</text>
-          <text
-             style="font-weight:bold;font-size:17.92741585px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="722.50073"
-             x="659.61389"
-             id="text3920">&amp;</text>
-          <text
-             style="font-weight:bold;font-size:17.92742729px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="622.50067"
-             x="464.20261"
-             id="text3924">/</text>
-          <text
-             style="font-weight:bold;font-size:17.92743111px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="622.50586"
-             x="569.98462"
-             id="text3926">\</text>
-          <text
-             style="font-weight:bold;font-size:11.95161247px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="767.82043"
-             x="600.46777"
-             id="text3934">_</text>
-          <text
-             style="font-weight:bold;font-size:17.92742348px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
-             y="572.20135"
-             x="434.3407"
-             id="text4021">&quot;</text>
-          <text
-             id="text4023"
-             x="250.06122"
-             y="571.03436"
-             style="font-weight:bold;font-size:17.92742157px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">&lt;</text>
-          <text
-             id="text4025"
-             x="305.8436"
-             y="571.03436"
-             style="font-weight:bold;font-size:17.92741013px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">&gt;</text>
-          <text
-             id="text4027"
-             x="275.8699"
-             y="571.617"
-             style="font-weight:bold;font-size:17.92742348px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">{</text>
-          <text
-             id="text4029"
-             x="329.44302"
-             y="571.617"
-             style="font-weight:bold;font-size:17.92742348px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">}</text>
-        </g>
-      </g>
+         style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
+         class="T_size_L"
+         y="674.40912"
+         x="423.91168"
+         id="text3776">´</text>
+      <text
+         style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
+         class="T_size_L"
+         y="726.40912"
+         x="283.25854"
+         id="text3778">`</text>
+      <text
+         style="font-weight:bold;font-size:17.92744637px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
+         y="699.96021"
+         x="205.19592"
+         id="text3780"
+         transform="scale(1.0000012,0.99999881)">¡</text>
+      <text
+         style="font-weight:bold;font-size:17.92742157px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
+         y="699.79803"
+         x="226.94485"
+         id="text3782">¿</text>
+      <text
+         id="text3866"
+         x="204.01117"
+         y="722.73865"
+         style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">!</text>
+      <text
+         id="text3868"
+         x="226.99274"
+         y="722.90002"
+         style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">?</text>
+      <text
+         id="text3898"
+         x="245.13748"
+         y="626.40118"
+         class="T_DeadKey"
+         style="font-weight:bold;font-size:20.91532326px;font-family:sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">^</text>
+      <text
+         id="text3900"
+         x="391.16553"
+         y="719.33246"
+         style="font-weight:bold;font-size:17.92741013px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">;</text>
+      <text
+         id="text3902"
+         x="479.28885"
+         y="672.13196"
+         style="font-weight:bold;font-size:17.9274044px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">,</text>
+      <text
+         id="text3904"
+         x="335.30231"
+         y="720.89215"
+         style="font-weight:bold;font-size:17.92741013px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">:</text>
+      <text
+         id="text3906"
+         x="440.9935"
+         y="719.5882"
+         style="font-weight:bold;font-size:17.9274025px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">'</text>
+      <text
+         style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
+         y="657.22211"
+         x="371.4158"
+         id="text3627">¨</text>
+      <text
+         id="text3629"
+         x="499.12793"
+         y="722.31848"
+         style="font-weight:bold;font-size:17.92742538px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">~</text>
     </g>
     <g
-       id="g4987">
-      <text
-         id="text3936"
-         x="371.39212"
-         y="671.22211"
-         style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">.</text>
+       id="g4510">
       <g
-         id="g4937">
+         id="g4884">
         <text
-           id="text3776"
-           x="423.91168"
-           y="674.40912"
-           class="T_size_L"
-           style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">´</text>
-        <text
-           id="text3778"
-           x="283.25854"
-           y="726.40912"
-           class="T_size_L"
-           style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">`</text>
-        <text
-           transform="scale(1.0000012,0.99999881)"
-           id="text3780"
-           x="205.19592"
-           y="699.96021"
-           style="font-weight:bold;font-size:17.92744637px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">¡</text>
-        <text
-           id="text3782"
-           x="226.94485"
-           y="699.79803"
-           style="font-weight:bold;font-size:17.92742157px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">¿</text>
-        <text
-           style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="722.73865"
-           x="204.01117"
-           id="text3866">!</text>
-        <text
-           style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="722.90002"
-           x="226.99274"
-           id="text3868">?</text>
-        <text
-           style="font-weight:bold;font-size:20.91532326px;font-family:sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           class="T_DeadKey"
-           y="626.40118"
-           x="245.13748"
-           id="text3898">^</text>
-        <text
-           style="font-weight:bold;font-size:17.92741013px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="719.33246"
-           x="391.16553"
-           id="text3900">;</text>
-        <text
-           style="font-weight:bold;font-size:17.9274044px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="672.13196"
-           x="479.28885"
-           id="text3902">,</text>
-        <text
-           style="font-weight:bold;font-size:17.92741013px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="720.89215"
-           x="335.30231"
-           id="text3904">:</text>
-        <text
-           style="font-weight:bold;font-size:17.9274025px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="719.5882"
-           x="440.9935"
-           id="text3906">'</text>
-        <text
-           id="text3627"
-           x="371.4158"
-           y="657.22211"
-           style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none">¨</text>
-        <text
-           style="font-weight:bold;font-size:17.92742538px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#008000;fill-opacity:1;stroke:none"
-           y="722.31848"
-           x="499.12793"
-           id="text3629">~</text>
+           style="font-weight:bold;font-size:17.92741394px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+           y="620.38147"
+           x="676.16138"
+           id="text3894">=</text>
+        <g
+           id="g4830">
+          <text
+             transform="scale(1.0412161,0.96041542)"
+             style="font-weight:bold;font-size:18.95226669px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;"
+             y="596.21167"
+             x="468.7597"
+             id="text3922">€</text>
+          <g
+             id="g3651">
+            <text
+               style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="571.94092"
+               x="464.57874"
+               id="text3870">$</text>
+            <text
+               style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="722.95233"
+               x="712.88794"
+               id="text3872">#</text>
+            <text
+               style="font-weight:bold;font-size:17.92741585px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="620.9679"
+               x="301.65881"
+               id="text3880">(</text>
+            <text
+               style="font-weight:bold;font-size:17.92741585px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="620.9679"
+               x="411.54868"
+               id="text3882">)</text>
+            <text
+               style="font-weight:bold;font-size:17.92742729px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="720.43243"
+               x="549.25153"
+               id="text3884">@</text>
+            <text
+               style="font-weight:bold;font-size:17.92741966px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="670.40704"
+               x="531.95343"
+               id="text3896">%</text>
+            <text
+               id="text3912"
+               x="265.4614"
+               y="670.19946"
+               style="font-weight:bold;font-size:17.92740631px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">[</text>
+            <text
+               id="text3914"
+               x="321.53073"
+               y="670.19946"
+               style="font-weight:bold;font-size:17.92740631px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">]</text>
+            <text
+               transform="scale(1.0000023,0.99999771)"
+               id="text3918"
+               x="516.125"
+               y="620.97449"
+               style="font-weight:bold;font-size:17.92745972px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">|</text>
+            <text
+               id="text3920"
+               x="659.61389"
+               y="722.50073"
+               style="font-weight:bold;font-size:17.92741585px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">&amp;</text>
+            <text
+               id="text3924"
+               x="464.20261"
+               y="622.50067"
+               style="font-weight:bold;font-size:17.92742729px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">/</text>
+            <text
+               id="text3926"
+               x="569.98462"
+               y="622.50586"
+               style="font-weight:bold;font-size:17.92743111px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">\</text>
+            <text
+               id="text3934"
+               x="600.46777"
+               y="767.82043"
+               style="font-weight:bold;font-size:11.95161247px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">_</text>
+            <text
+               id="text4021"
+               x="434.3407"
+               y="572.20135"
+               style="font-weight:bold;font-size:17.92742348px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">&quot;</text>
+            <text
+               style="font-weight:bold;font-size:17.92742157px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="571.03436"
+               x="250.06122"
+               id="text4023">&lt;</text>
+            <text
+               style="font-weight:bold;font-size:17.92741013px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="571.03436"
+               x="305.8436"
+               id="text4025">&gt;</text>
+            <text
+               style="font-weight:bold;font-size:17.92742348px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="571.617"
+               x="275.8699"
+               id="text4027">{</text>
+            <text
+               style="font-weight:bold;font-size:17.92742348px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none"
+               y="571.617"
+               x="329.44302"
+               id="text4029">}</text>
+          </g>
+        </g>
       </g>
+      <text
+         id="text4435"
+         x="197.25854"
+         y="576.40912"
+         class="T_size_L"
+         style="font-weight:bold;font-size:20.91532326px;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#0000ff;fill-opacity:1;stroke:none">`</text>
     </g>
     <g
        id="g5051">
