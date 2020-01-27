@@ -1,12 +1,3 @@
-<p align="center">
-<a href="images/tony-aldon-github-presents-keyboard-layout-small-size.svg">
-<img
-	src="images/tony-aldon-github-presents-keyboard-layout-small-size.png"
-	alt="Tony Aldon presents keyboard-layout" title="Tony Aldon
-	presents keyboard-layout">
-</a>
-<p/>
-
 # About
 
 `keyboard-layout` pools all files needed to set up my own keyboard
@@ -14,7 +5,7 @@ layout.
 
 <p align="center">
 	<figure>
-	<img src="images/takbl-basic.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl basic)">
+	<img src="takbl-basic.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl basic)">
 	<figcaption>Tony Aldon (kbl basic)</figcaption>
 	</figure>
 <p/>
@@ -60,18 +51,12 @@ Or, if you prefer you can run `setxkbmap -layout takbl` in your terminal.
 
 # Contact
 
-Do you have any question? Do you have any suggestion? Or, do you just
-want to start a chat? Please, feel free to:
+Do you have any question or suggestion? Please, feel free to:
 * leave me a message on twitter <a
 href="http://www.twitter.com/tonyaldon">@tonyaldon</a> 
 * or to email me at aldon.tony@gmail.com. 
 
-Depend on my workflow, but I use to reply within 48 hours.
-
-# Sharing
-
-The more we share knowledge, the more we gain. If you think about a
-friend who could be interested in this work, do not hesitate to let him know.
+I use to reply within 48 hours.
 
 **Speaking with your computer always starts by typing
 characters. Speak clearly. Have a better life.**
