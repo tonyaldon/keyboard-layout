@@ -1,7 +1,7 @@
 # About
 
 `keyboard-layout` pools all files needed to set up my own keyboard
-layout.
+layout (`takbl`).
 
 <p align="center">
 	<figure>
@@ -23,31 +23,30 @@ With the standard existing keyboard layouts as *qwerty* or *bépo*, I used to ha
 
 # Installation
 
-This configuration works on linux ubuntu 16.04 LTS (maybe later release too but not tested).
+This configuration works on linux ubuntu 18.04 LTS.
 
-Download this directory, then go to `keyboard-layout` directory, make the file `install.sh`
-executable, and run it.
+To install `takbl` keyboard layout and active it, run the following commands: 
 
-```bash
-cd your-path-to/keyboard-layout
-chmod +x install.sh
-sudo ./install.sh
-```
-Now, you have to restart your computer to make changes effective.
+	git clone https://github.com/tonyaldon/keyboard-layout
+	cd keyboard-layout
+	make install
 
-[warning] `install.sh` will change the important system file
-`evdev.xml` after having made a backup. Make sure you agree with this.
+[warning] This will change the important system file `evdev.xml` 
+after having made a backup. Make sure you agree with this.
 
-# Usage
+If you want to remove the `takbl` keyboard layout installation, run the command:
 
-If you have run the installation step above, you can use the keyboard
-layout `Tony Aldon (kbl basic form)` only by active it in the `Text
-Entry Settings`.
+	make remove
 
-Go to: `System Settings > Keyboard > Typing > Text Entry`, then  click on `+` and
-choose `Tony Aldon (kbl basic form)`.
+If you just want to switch back to your previous layout, use `setxkbmap` command. For
+instance, with the `us` qwerty keyboard layout, run the command:
 
-Or, if you prefer you can run `setxkbmap -layout takbl` in your terminal.
+	setxkbmap -layout us
+
+To see all the keyboard layouts available, list the files in the directory
+`/usr/share/X11/xkb/symbols/` by running the command:
+
+	ls /usr/share/X11/xkb/symbols/
 
 # Contact
 
