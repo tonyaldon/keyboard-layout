@@ -10,10 +10,15 @@ links:
 	  sudo cp /usr/share/X11/xkb/rules/evdev.xml $(BACKUP)/evdev.xml; \
 	  echo "[.backup/evdev.xml] backup file has been created"; \
 	fi; \
-	sudo rm -rf /usr/share/X11/xkb/rules/evdev.xml; \
-	sudo ln xkb/evdev.xml /usr/share/X11/xkb/rules/evdev.xml; \
+	if [ ! $$(ls -i /usr/share/X11/xkb/rules/evdev.xml | cut -f1 -d" " ) \
+	  -eq $$(ls -i xkb/evdev.xml | cut -f1 -d" " ) ]; then \
+	  sudo rm -rf /usr/share/X11/xkb/rules/evdev.xml; \
+	  sudo ln xkb/evdev.xml /usr/share/X11/xkb/rules/evdev.xml; \
+	  echo "[/usr/share/X11/xkb/rules/evdev.xml => xkb/evdev.xml] hard link has been created"; \
+	fi; \
 	if [ ! -f /usr/share/X11/xkb/symbols/takbl ]; then \
 	  sudo ln xkb/takbl /usr/share/X11/xkb/symbols/takbl; \
+	  echo "[/usr/share/X11/xkb/symbols/takbl => xkb/takbl] hard link has been created"; \
 	fi
 
 install: links
