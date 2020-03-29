@@ -48,6 +48,19 @@ To see all the keyboard layouts available, list the files in the directory
 
 	ls /usr/share/X11/xkb/symbols/
 
+# Variants
+
+`takbl` comes with the basic form and two variants:
+1. a *spanish* variant that changes the `tild` to the `dead_tild`,
+2. and a *french* variant that changes `dead_acute` to `eacute`,
+   `dead_grave` to `egrave` and `bracketleft` to `agrave`.
+
+To switch between those variant, you can run the following commands:
+
+	setxkbmap -layout takbl              # basic
+	setxkbmap -layout takbl -variant es  # spanish
+	setxkbmap -layout takbl -variant fr  # french
+
 # Contact
 
 Do you have any question or suggestion? Please, feel free to:
