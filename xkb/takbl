@@ -12,7 +12,7 @@ xkb_symbols "basic" {
     key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [	less,           less,						braceleft                        ] }; // < < {  
     key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  greater,        greater,				braceright			                 ] }; // > > }    
     key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ 	p,              P, 							Prior						                 ] }; // p P <prior>  
-    key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  k,		          K,  						quotedbl				                 ] }; // k K "
+    key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  k,		          K,  						quotedbl				                 ] }; // k K
     key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  dollar, 				dollar, 				EuroSign   			                 ] }; // $ $ €
     key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  plus, 					plus, 					asterisk  			                 ] }; // + + *
     key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  minus, 					minus,					asciicircum			                 ] }; // - - ^
@@ -55,14 +55,38 @@ xkb_symbols "basic" {
     key <AB02> {                                             [ x,               X,      				colon         		   						 ] }; // x X :  
     key <AB03> {                                             [ o,               O,      				semicolon      		   						 ] }; // o O ;
     key <AB04> {                                             [ Return,          Return, 				apostrophe		   								 ] }; // Return Returnt '
-    key <AB05> {                                             [ 0xfe03, 					0xfe03, 				dead_tilde                   		 ] }; // Altgr Altgr ~
+    key <AB05> {                                             [ 0xfe03, 					0xfe03, 				asciitilde                   		 ] }; // Altgr Altgr ~
     key <AB06> {                                             [ c,            		C,      				at   	       		   							 ] }; // c C @
     key <AB07> {                                             [ 0xffe4            	  			   		      						 							 ] }; // Control_R  
     key <AB08> {                                             [ g,            		G,              ampersand    	                   ] }; // g G &
     key <AB09> {                                             [ h,            		H,              numbersign          	 		   		 ] }; // h H #
-    key <AB10> {                                             [ 0,               0																								 ] }; // 0 0
+    key <AB10> {                                             [ 0,               0,              comma														 ] }; // 0 0 ,
 
     key <SPCE> { 																						 [ space, 	        space,				  underscore                       ] }; // space space _ 
 };
 
+partial alphanumeric_keys
+xkb_symbols "es" {
 
+    include "takbl(basic)"
+
+    name[Group1]= "Tony Aldon (kbl spanish)";
+
+    key <AB05> { [ 0xfe03, 0xfe03, dead_tilde ] }; // Altgr Altgr ~
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "fr" {
+
+    include "takbl(basic)"
+
+    name[Group1]= "Tony Aldon (kbl french)";
+
+    key <TLDE> { [bracketleft ] };
+
+    key <AC01> { [ a, A, agrave, Agrave ] }; // a A [
+    key <AC04> { [ e, E, eacute, Eacute ] }; // e E é É
+
+    key <AB01> { [ y, Y, egrave, Egrave ] }; // y Y è È
+};

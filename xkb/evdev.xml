@@ -5875,6 +5875,20 @@
           <iso639Id>fra</iso639Id>
         </languageList>
       </configItem>
+			<variantList>
+        <variant>
+          <configItem>
+            <name>es</name>
+            <description>Tony Aldon (kbl spanish)</description>
+          </configItem>
+        </variant>
+				<variant>
+          <configItem>
+            <name>fr</name>
+            <description>Tony Aldon (kbl french)</description>
+          </configItem>
+        </variant>
+				</variantList>
 		</layout>
 	</layoutList>
   <optionList>
