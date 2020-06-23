@@ -83,10 +83,16 @@ xkb_symbols "fr" {
 
     name[Group1]= "Tony Aldon (kbl french)";
 
-    key <TLDE> { [bracketleft ] };
+    key <TLDE> { [ ugrave, Ugrave ] }; // ù Ù
+		key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ icircumflex, Icircumflex ] }; // î Î
+		key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ucircumflex, Ucircumflex ] }; // û Û
+		key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [] };
+
+		key <AD01> { [ w, W, ecircumflex, Ecircumflex ] };
 
     key <AC01> { [ a, A, agrave, Agrave ] }; // a A [
     key <AC04> { [ e, E, eacute, Eacute ] }; // e E é É
+		key <AC05> { [ BackSpace, BackSpace, comma ] }; // BackSpace BackSpace ,
 
     key <AB01> { [ y, Y, egrave, Egrave ] }; // y Y è È
 };
