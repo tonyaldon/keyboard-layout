@@ -39,8 +39,8 @@ xkb_symbols "basic" {
     key <AC01> {                                             [  a,              A,              bracketleft 	 	                 ] }; // a A [ 
     key <AC02> {                                             [  u,              U,              bracketright	                   ] }; // u U ]
     key <AC03> {                                             [  i,              I, 	            period,         dead_diaeresis   ] }; // i I . ¨  ̈ 
-    key <AC04> {                                             [  e,              E,              dead_acute 	       	             ] }; // e E ˊ
-    key <AC05> {                                             [  BackSpace,      BackSpace, 			comma          	   							 ] }; // BackSpace BackSpace ,
+    key <AC04> {                                             [  e,              E,              comma     	       	             ] }; // e E ,
+    key <AC05> {                                             [  BackSpace,      BackSpace, 			grave          	   							 ] }; // BackSpace BackSpace `
     key <AC06> {                                             [  t,              T, 							percent 		   									 ] }; // t T %
     key <AC07> {                                             [  0xfe03,         0xfe03,   			Left 	   												 ] }; // Altgr Altgr <left>
     key <AC08> {                                             [  s,              S,      				Down       											 ] }; // s S <down>
