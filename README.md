@@ -10,8 +10,8 @@ layout (`takbl`).
 	</figure>
 <p/>
 
-# Motivation 
-I wanted to have a keyboard layout that realy fit with my daily work and computer use. 
+# Motivation
+I wanted to have a keyboard layout that realy fit with my daily work and computer use.
 With the standard existing keyboard layouts as *qwerty* or *bépo*, I used to have these problems:
 
 1. After a typing day work, my hands and fingers hurt me,
@@ -25,13 +25,13 @@ With the standard existing keyboard layouts as *qwerty* or *bépo*, I used to ha
 
 This configuration works on linux ubuntu 18.04 LTS.
 
-To install `takbl` keyboard layout and active it, run the following commands: 
+To install `takbl` keyboard layout and active it, run the following commands:
 
 	git clone https://github.com/tonyaldon/keyboard-layout
 	cd keyboard-layout
 	make install
 
-[warning] This will change the important system file `evdev.xml` 
+[warning] This will change the important system file `evdev.xml`
 after having made a backup. Make sure you agree with this.
 
 If you want to remove the `takbl` keyboard layout installation, run the command:
@@ -65,10 +65,8 @@ To switch between those variant, you can run the following commands:
 
 Do you have any question or suggestion? Please, feel free to:
 * leave me a message on twitter <a
-href="http://www.twitter.com/tonyaldon">@tonyaldon</a> 
-* or to email me at aldon.tony@gmail.com. 
-
-I use to reply within 48 hours.
+href="http://www.twitter.com/tonyaldon">@tonyaldon</a>
+* or to email me at tony.aldon.adm@gmail.com.
 
 **Speaking with your computer always starts by typing
 characters. Speak clearly. Have a better life.**
