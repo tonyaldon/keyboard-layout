@@ -68,6 +68,118 @@ To switch between those variant, you can run the following commands:
 	setxkbmap -layout takbl -variant es  # spanish
 	setxkbmap -layout takbl -variant fr  # french
 
+# My understanding of XKB
+
+## XKB
+
+### How does XKB load a keyboard layout?
+
+When you load a keyboard layout, for instance by running the command
+`setxkbmap -rules evdev -layout us` (for the standard US QUERTY),
+`XKB` load the rules in `/usr/share/X11/xkb/rules/evdev.xml` file and
+looks for the layout `us`.  If the layout `us` is found in
+`/usr/share/X11/xkb/rules/evdev.xml`, `XKB` seeks the file
+`/usr/share/X11/xkb/symbols/us`.  If this file exist, the keyboard
+layout defined in that file is loaded (in our case the US QUERTY
+layout is loaded).
+
+The directory `/usr/share/X11/xkb/` looks like this:
+
+```
+.
+├── compat
+│   ├── ...
+├── geometry
+│   ├── ...
+├── keycodes
+│   ├── ...
+├── rules
+│   ├── ...
+│   ├── base.xml
+│   ├── evdev.xml
+│   ├── ...
+├── symbols
+│   ├── ...
+│   ├── fr
+│   ├── ...
+│   ├── us
+│   ├── ...
+└── types
+    ├── ...
+```
+
+### How to list all the XKB keyboard layouts?
+
+To see all the keyboard layouts available, list the files in the directory
+`/usr/share/X11/xkb/symbols/` by running the command:
+
+	ls /usr/share/X11/xkb/symbols/
+
+### Why does XKB choose to load the rules in the file `evdev.xml` and not `base.xml`?
+
+I don't know, but in the documention we can read that *On Linux
+systems, the `evdev` rules are most commonly used, on other systems
+the `base` rules are used*.
+
+So like me if you're running Linux Ubuntu, the rules XKB loads are
+in the file `/usr/share/X11/xkb/rules/evdev.xml`.  And if you are
+using `setxkbmap` to load keyboard layouts, running one of those
+following command lines leads to the same result (loading the US
+QUERTY keyboard layout):
+
+	setxkbmap -layout us
+	setxkbmap -rules evdev -layout us
+
+### How to set a default keyboard layout that last across sessions?
+
+Setting your keyboard layout with `setxkbmap` doesn't last across
+sessions and as a consequency is not set when you log into your
+session.
+
+Your system load the keyboard layout set in `/etc/default/keyboard`
+file.  For instance, if you use the US QUERTY keyboard layout,
+`/etc/default/keyboard` file should look like this:
+
+```
+# KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="us"
+XKBVARIANT=""
+XKBOPTIONS=""
+
+BACKSPACE="guess"
+```
+
+Now if you want to set the Spanish QUERTY keyboard layout (that is defined in the file
+`/usr/share/X11/xkb/symbols/es`) as your default keyboard layout, you
+just have to modify the line `XKBLAYOUT="us"` by `XKBLAYOUT="es"` in
+the file `/etc/default/keyboard`, which lead to the file:
+
+```
+# KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="es"
+XKBVARIANT=""
+XKBOPTIONS=""
+
+BACKSPACE="guess"
+```
+
+
+### How do I get the current XKB settings?
+
+If you want to have some informations on your current XKB settings ,
+run the commands:
+
+    setxkbmap -query
+    setxkbmap -query -verbose 10
+
 # Contact
 
 Do you have any question or suggestion? Please, feel free to:
