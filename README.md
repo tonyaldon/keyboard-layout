@@ -25,28 +25,35 @@ With the standard existing keyboard layouts as *qwerty* or *bépo*, I used to ha
 
 This configuration works on linux ubuntu 18.04 LTS.
 
-To install `takbl` keyboard layout and active it, run the following commands:
+To install `takbl` keyboard layout, run the following commands:
 
 	git clone https://github.com/tonyaldon/keyboard-layout
 	cd keyboard-layout
 	make install
 
-[warning] This will change the important system file `evdev.xml`
-after having made a backup. Make sure you agree with this.
-
-If you want to remove the `takbl` keyboard layout installation, run the command:
+If you want to remove the `takbl` keyboard layout installation, run
+the command:
 
 	make remove
 
-If you just want to switch back to your previous layout, use `setxkbmap` command. For
-instance, with the `us` qwerty keyboard layout, run the command:
+Note that when you run `make install`, 4 things happen:
+1. A backup of the files `/usr/share/X11/xkb/rules/evdev.xml` and
+   `/etc/default/keyboard` is made in the directory `.backup`,
+2. The keyboard layout `takbl` is installed by making the following
+   hardlinks:
 
-	setxkbmap -layout us
+        /usr/share/X11/xkb/rules/evdev.xml => usr/share/X11/xkb/rules/evdev.xml
+        /usr/share/X11/xkb/symbols/takbl => usr/share/X11/xkb/symbols/takbl
 
-To see all the keyboard layouts available, list the files in the directory
-`/usr/share/X11/xkb/symbols/` by running the command:
+3. The keyboard layout `takbl` becomes the default keyboard layout by
+   making the following hardlink:
 
-	ls /usr/share/X11/xkb/symbols/
+        /etc/default/keyboard => etc/default/keyboard
+
+4. And the keyboard layout `takbl` is activated for the current session.
+
+If you want to know more about `XKB`, you can read the section [My
+understanding of XKB](#my-understanding-of-xkb)
 
 # Variants
 
