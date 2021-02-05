@@ -4,33 +4,57 @@ all: links
 
 BACKUP = .backup
 
-links:
+link_evdev:
 	@if [ ! -f $(BACKUP)/evdev.xml ]; then \
-	  mkdir $(BACKUP); \
+	  if [ ! -d $(BACKUP) ]; then mkdir $(BACKUP); fi; \
 	  sudo cp /usr/share/X11/xkb/rules/evdev.xml $(BACKUP)/evdev.xml; \
 	  echo "[.backup/evdev.xml] backup file has been created"; \
 	fi; \
 	if [ ! $$(ls -i /usr/share/X11/xkb/rules/evdev.xml | cut -f1 -d" " ) \
-	  -eq $$(ls -i xkb/evdev.xml | cut -f1 -d" " ) ]; then \
+	  -eq $$(ls -i usr/share/X11/xkb/rules/evdev.xml | cut -f1 -d" " ) ]; then \
 	  sudo rm -rf /usr/share/X11/xkb/rules/evdev.xml; \
-	  sudo ln xkb/evdev.xml /usr/share/X11/xkb/rules/evdev.xml; \
-	  echo "[/usr/share/X11/xkb/rules/evdev.xml => xkb/evdev.xml] hard link has been created"; \
+	  sudo ln usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml; \
+	  echo "[/usr/share/X11/xkb/rules/evdev.xml => usr/share/X11/xkb/rules/evdev.xml] hard link has been created"; \
+	fi
+
+link_etc_default_keyboard:
+	@if [ ! -f $(BACKUP)/keyboard ]; then \
+	  if [ ! -d $(BACKUP) ]; then mkdir $(BACKUP); fi; \
+	  sudo cp /etc/default/keyboard $(BACKUP)/keyboard; \
+	  echo "[.backup/keyboard] backup file has been created"; \
 	fi; \
-	if [ ! -f /usr/share/X11/xkb/symbols/takbl ]; then \
-	  sudo ln xkb/takbl /usr/share/X11/xkb/symbols/takbl; \
-	  echo "[/usr/share/X11/xkb/symbols/takbl => xkb/takbl] hard link has been created"; \
+	if [ ! $$(ls -i /etc/default/keyboard | cut -f1 -d" " ) \
+	  -eq $$(ls -i etc/default/keyboard | cut -f1 -d" " ) ]; then \
+	  sudo rm -rf /etc/default/keyboard; \
+	  sudo ln etc/default/keyboard /etc/default/keyboard; \
+	  echo "[/etc/default/keyboard => etc/default/keyboard] hard link has been created"; \
+	fi
+
+links: link_evdev link_etc_default_keyboard
+	@if [ ! -f /usr/share/X11/xkb/symbols/takbl ]; then \
+	  sudo ln usr/share/X11/xkb/symbols/takbl /usr/share/X11/xkb/symbols/takbl; \
+	  echo "[/usr/share/X11/xkb/symbols/takbl => usr/share/X11/xkb/symbols/takbl] hard link has been created"; \
 	fi
 
 install: links
 	@setxkbmap -layout takbl
 
-clean_links:
+clean_link_evdev:
 	@if [ -f $(BACKUP)/evdev.xml ]; then \
 	  sudo rm -f /usr/share/X11/xkb/rules/evdev.xml; \
 	  sudo cp $(BACKUP)/evdev.xml /usr/share/X11/xkb/rules/evdev.xml; \
-	  rm -rf $(BACKUP); \
-	fi; \
-	sudo rm -f /usr/share/X11/xkb/symbols/takbl;
+	  rm -rf $(BACKUP)/evdev.xml; \
+	fi
+
+clean_link_etc_default_keyboard:
+	@if [ -f $(BACKUP)/keyboard ]; then \
+	  sudo rm -f /etc/default/keyboard; \
+	  sudo cp $(BACKUP)/keyboard /etc/default/keyboard; \
+	  rm -rf $(BACKUP)/keyboard; \
+	fi
+
+clean_links: clean_link_evdev clean_link_etc_default_keyboard
+	@sudo rm -f /usr/share/X11/xkb/symbols/takbl
 
 remove: clean_links
 	@setxkbmap -layout us
