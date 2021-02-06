@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <AE12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [  3, 							3,							asterisk 												 ] }; // 3 3 *
 
     // Second row
-    key <AD01> {                                             [  w,              W,              dead_circumflex                  ] }; // w W ^
+    key <AD01> {                                             [  w,              W                                                ] }; // w W
     key <AD02> {                                             [  b,              B,      				parenleft                        ] }; // b B (
     key <AD03> {                                             [  n,              N, 							Next                             ] }; // n N <next>
     key <AD04> {                                             [  f,	       		  F,      				parenright    	                 ] }; // f F  )
@@ -38,7 +38,7 @@ xkb_symbols "basic" {
     // Third row
     key <AC01> {                                             [  a,              A,              bracketleft 	 	                 ] }; // a A [
     key <AC02> {                                             [  u,              U,              bracketright	                   ] }; // u U ]
-    key <AC03> {                                             [  i,              I, 	            period,         dead_diaeresis   ] }; // i I . ¨  ̈
+    key <AC03> {                                             [  i,              I, 	            period                           ] }; // i I .
     key <AC04> {                                             [  e,              E,              comma     	       	             ] }; // e E ,
     key <AC05> {                                             [  BackSpace,      BackSpace, 			grave          	   							 ] }; // BackSpace BackSpace `
     key <AC06> {                                             [  t,              T, 							percent 		   									 ] }; // t T %
@@ -51,7 +51,7 @@ xkb_symbols "basic" {
 
     // Fourth row
     key <LSGT> {                                             [ exclam,			    exclamdown,     question,       questiondown     ] }; // ! ¡ ? ¿
-    key <AB01> {                                             [ y,               Y,							dead_grave               	       ] }; // y Y `
+    key <AB01> {                                             [ y,               Y           							               	       ] }; // y Y
     key <AB02> {                                             [ x,               X,      				colon         		   						 ] }; // x X :
     key <AB03> {                                             [ o,               O,      				semicolon      		   						 ] }; // o O ;
     key <AB04> {                                             [ Return,          Return, 				apostrophe		   								 ] }; // Return Returnt '
@@ -73,7 +73,7 @@ xkb_symbols "es" {
     name[Group1]= "Tony Aldon (kbl spanish)";
 
     key <AB03> { [ o, O, oacute, Oacute ] }; // o O ó Ó
-    key <AB05> { [ 0xfe03, 0xfe03, dead_tilde ] }; // Altgr Altgr ~
+    key <AB05> { [ 0xfe03, 0xfe03       ] }; // Altgr Altgr
 };
 
 partial alphanumeric_keys
