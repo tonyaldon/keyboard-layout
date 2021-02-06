@@ -7,62 +7,62 @@ xkb_symbols "basic" {
     name[Group1]= "Tony Aldon (kbl basic form)";
 
     // First row
-    key <TLDE> { [ Next, Next ] }; // <next>
-    key <AE01> { [ Prior, Prior ] }; // <prior>
-    key <AE02> { [ EuroSign ] }; // €
-    key <AE03> { [  braceleft,      braceleft,		  braceleft	  		                 ] }; // { { {
-    key <AE04> { [ 	p,              P, 							braceright			                 ] }; // p P }
-    key <AE05> { [  k,		          K,  						quotedbl				                 ] }; // k K
-    key <AE06> { [  less, 				 	less,           greater	   			                 ] }; // < >
-    key <AE07> { [  plus, 					plus, 					asterisk  			                 ] }; // + + *
-    key <AE08> { [  minus, 					minus,					asciicircum			                 ] }; // - - ^
-    key <AE09> { [  0, 							0,							dollar 				                   ] }; // 0 0 $
-    key <AE10> { [  1, 							1,       				plus														 ] }; // 1 1 +
-    key <AE11> { [ 	2, 							2,							minus   		         						 ] }; // 2 2 -
-    key <AE12> { [  3, 							3,							asterisk 												 ] }; // 3 3 *
+    key <TLDE> { [      Next,      Next               ] }; // <next>
+    key <AE01> { [     Prior,     Prior               ] }; // <prior>
+    key <AE02> { [  EuroSign                          ] }; // €
+    key <AE03> { [ braceleft, braceleft,    braceleft ] }; // { { {
+    key <AE04> { [         p,         P,   braceright ] }; // p P }
+    key <AE05> { [         k,         K,     quotedbl ] }; // k K
+    key <AE06> { [      less,      less,      greater ] }; // < >
+    key <AE07> { [      plus,      plus,     asterisk ] }; // + + *
+    key <AE08> { [     minus,     minus,  asciicircum ] }; // - - ^
+    key <AE09> { [         0,         0,       dollar ] }; // 0 0 $
+    key <AE10> { [         1,         1,         plus ] }; // 1 1 +
+    key <AE11> { [         2,         2,        minus ] }; // 2 2 -
+    key <AE12> { [         3,         3,     asterisk ] }; // 3 3 *
 
     // Second row
-    key <AD01> { [  w,              W                                                ] }; // w W
-    key <AD02> { [  b,              B,      				parenleft                        ] }; // b B (
-    key <AD03> { [  n,              N, 							parenright                       ] }; // n N )
-    key <AD04> { [  f,	       		  F,      				question      	                 ] }; // f F ?
-    key <AD05> { [  Tab, 	       	  Tab, 						slash     		 	                 ] }; // Tab Tab /
-    key <AD06> { [  v,              V,       				bar    			                     ] }; // v V |
-    key <AD07> { [  q,              Q,							backslash			                   ] }; // q Q \
-    key <AD08> { [  d,              D,							Up	                             ] }; // d D <up>
-    key <AD09> { [  l,              L,	    				equal                            ] }; // l L =
-    key <AD10> { [  j,              4,              J 			                         ] }; // j 4 J
-    key <AD11> { [  z,              5,              Z                                ] }; // z 5 Z
-    key <AD12> { [  6,   						6,							period                  		     ] }; // 6 6 .
+    key <AD01> { [         w,         W               ] }; // w W
+    key <AD02> { [         b,         B,    parenleft ] }; // b B (
+    key <AD03> { [         n,         N,   parenright ] }; // n N )
+    key <AD04> { [         f,         F,     question ] }; // f F ?
+    key <AD05> { [       Tab,       Tab,        slash ] }; // Tab Tab /
+    key <AD06> { [         v,         V,          bar ] }; // v V |
+    key <AD07> { [         q,         Q,    backslash ] }; // q Q \
+    key <AD08> { [         d,         D,           Up ] }; // d D <up>
+    key <AD09> { [         l,         L,        equal ] }; // l L =
+    key <AD10> { [         j,         4,            J ] }; // j 4 J
+    key <AD11> { [         z,         5,            Z ] }; // z 5 Z
+    key <AD12> { [         6,         6,       period ] }; // 6 6 .
 
     // Third row
-    key <AC01> { [  a,              A,              bracketleft 	 	                 ] }; // a A [
-    key <AC02> { [  u,              U,              bracketright	                   ] }; // u U ]
-    key <AC03> { [  i,              I, 	            period                           ] }; // i I .
-    key <AC04> { [  e,              E,              comma     	       	             ] }; // e E ,
-    key <AC05> { [  BackSpace,      BackSpace, 			grave          	   							 ] }; // BackSpace BackSpace `
-    key <AC06> { [  t,              T, 							percent 		   									 ] }; // t T %
-    key <AC07> { [  0xfe03,         0xfe03,   			Left 	   												 ] }; // Altgr Altgr <left>
-    key <AC08> { [  s,              S,      				Down       											 ] }; // s S <down>
-    key <AC09> { [  r,              R,     					Right 	   											 ] }; // r R <right>
-    key <AC10> { [  m,              7,							M	 	   													 ] }; // m 7 M
-    key <AC11> { [  ccedilla,     	8, 							Ccedilla 		   									 ] }; // ç 8 Ç
-    key <BKSL> { [  9,							9,						  slash											       ] }; // 9 9 /
+    key <AC01> { [         a,         A,  bracketleft ] }; // a A [
+    key <AC02> { [         u,         U, bracketright ] }; // u U ]
+    key <AC03> { [         i,         I,       period ] }; // i I .
+    key <AC04> { [         e,         E,        comma ] }; // e E ,
+    key <AC05> { [ BackSpace, BackSpace,        grave ] }; // BackSpace BackSpace `
+    key <AC06> { [         t,         T,      percent ] }; // t T %
+    key <AC07> { [    0xfe03,    0xfe03,         Left ] }; // Altgr Altgr <left>
+    key <AC08> { [         s,         S,         Down ] }; // s S <down>
+    key <AC09> { [         r,         R,        Right ] }; // r R <right>
+    key <AC10> { [         m,         7,            M ] }; // m 7 M
+    key <AC11> { [  ccedilla,         8,     Ccedilla ] }; // ç 8 Ç
+    key <BKSL> { [         9,         9,        slash ] }; // 9 9 /
 
     // Fourth row
-    key <LSGT> { [ ] }; //
-    key <AB01> { [ y,               Y,           		exclam					         	       ] }; // y Y !
-    key <AB02> { [ x,               X,      				colon         		   						 ] }; // x X :
-    key <AB03> { [ o,               O,      				semicolon      		   						 ] }; // o O ;
-    key <AB04> { [ Return,          Return, 				apostrophe		   								 ] }; // Return Returnt '
-    key <AB05> { [ 0xfe03, 					0xfe03, 				asciitilde                   		 ] }; // Altgr Altgr ~
-    key <AB06> { [ c,            		C,      				at   	       		   							 ] }; // c C @
-    key <AB07> { [ 0xffe4            	  			   		      						 							 ] }; // Control_R
-    key <AB08> { [ g,            		G,              ampersand    	                   ] }; // g G &
-    key <AB09> { [ h,            		H,              numbersign          	 		   		 ] }; // h H #
-    key <AB10> { [ 0,               0,              comma														 ] }; // 0 0 ,
+    key <LSGT> { [                                    ] }; //
+    key <AB01> { [         y,          Y,      exclam ] }; // y Y !
+    key <AB02> { [         x,          X,       colon ] }; // x X :
+    key <AB03> { [         o,          O,   semicolon ] }; // o O ;
+    key <AB04> { [    Return,     Return,  apostrophe ] }; // Return Returnt '
+    key <AB05> { [    0xfe03,     0xfe03,  asciitilde ] }; // Altgr Altgr ~
+    key <AB06> { [         c,          C,          at ] }; // c C @
+    key <AB07> { [    0xffe4                          ] }; // Control_R
+    key <AB08> { [         g,          G,   ampersand ] }; // g G &
+    key <AB09> { [         h,          H,  numbersign ] }; // h H #
+    key <AB10> { [         0,          0,       comma ] }; // 0 0 ,
 
-    key <SPCE> { [ space, 	        space,				  underscore                       ] }; // space space _
+    key <SPCE> { [     space,      space,  underscore  ] }; // space space _
 };
 
 partial alphanumeric_keys
@@ -84,14 +84,14 @@ xkb_symbols "fr" {
     name[Group1]= "Tony Aldon (kbl french)";
 
     key <TLDE> { [ ugrave, Ugrave ] }; // ù Ù
-		key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ icircumflex, Icircumflex ] }; // î Î
-		key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ocircumflex, Ocircumflex ] }; // ô Ô
-		key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ucircumflex, Ucircumflex ] }; // û Û
+    key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ icircumflex, Icircumflex ] }; // î Î
+    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ocircumflex, Ocircumflex ] }; // ô Ô
+    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ucircumflex, Ucircumflex ] }; // û Û
 
-		key <AD01> { [ w, W, ecircumflex, Ecircumflex ] }; // w W ê Ê
+    key <AD01> { [ w, W, ecircumflex, Ecircumflex ] }; // w W ê Ê
 
     key <AC01> { [ a, A, agrave, Agrave ] }; // a A à À
-		key <AC05> { [ BackSpace, BackSpace, semicolon ] }; // BackSpace BackSpace ;
+    key <AC05> { [ BackSpace, BackSpace, semicolon ] }; // BackSpace BackSpace ;
 
     key <AB01> { [ y, Y, egrave, Egrave ] }; // y Y è È
     key <AB03> { [ o, O, eacute, Eacute ] }; // o O é É
