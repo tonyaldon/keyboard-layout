@@ -69,11 +69,21 @@ partial alphanumeric_keys
 xkb_symbols "es" {
 
     include "takbl(basic)"
-
     name[Group1]= "Tony Aldon (kbl spanish)";
 
-    key <AB03> { [ o, O, oacute, Oacute ] }; // o O ó Ó
-    key <AB05> { [ 0xfe03, 0xfe03       ] }; // Altgr Altgr
+    // Second row
+    key <AD02> { [            b,            B, udiaeresis, Udiaeresis ] }; // b B ü Ü
+    key <AD03> { [            n,            N,     iacute,     Iacute ] }; // n N í Í
+    key <AD04> { [            f,            F,     eacute,     Eacute ] }; // f F é É
+
+    // Third row
+    key <AC01> { [            a,            A,     aacute,     Aacute ] }; // a A á Á
+    key <AC02> { [            u,            U,     uacute,     Uacute ] }; // u U ú Ú
+
+    // Fourth row
+    key <LSGT> { [ questiondown, questiondown, exclamdown             ] }; // ¿ ¿ ¡
+    key <AB03> { [            o,            O,     oacute,     Oacute ] }; // o O ó Ó
+    key <AB05> { [       0xfe03,       0xfe03,     ntilde,     Ntilde ] }; // Altgr Altgr ñ Ñ
 };
 
 partial alphanumeric_keys
