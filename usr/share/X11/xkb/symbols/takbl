@@ -7,8 +7,8 @@ xkb_symbols "basic" {
     name[Group1]= "Tony Aldon (kbl basic form)";
 
     // First row
-    key <TLDE> { [      Next,      Next               ] }; // <next>
-    key <AE01> { [     Prior,     Prior               ] }; // <prior>
+    key <TLDE> { [     Prior,     Prior               ] }; // <prior>
+    key <AE01> { [      Next,      Next               ] }; // <next>
     key <AE02> { [  EuroSign                          ] }; // €
     key <AE03> { [ braceleft, braceleft,    braceleft ] }; // { { {
     key <AE04> { [         p,         P,   braceright ] }; // p P }
