@@ -9,11 +9,11 @@ xkb_symbols "basic" {
     // First row
     key <TLDE> { [     Prior,     Prior               ] }; // <prior>
     key <AE01> { [      Next,      Next               ] }; // <next>
-    key <AE02> { [  EuroSign                          ] }; // €
+    key <AE02> { [                                    ] }; //
     key <AE03> { [ braceleft, braceleft,    braceleft ] }; // { { {
     key <AE04> { [         p,         P,   braceright ] }; // p P }
-    key <AE05> { [         k,         K,     quotedbl ] }; // k K
-    key <AE06> { [      less,      less,      greater ] }; // < >
+    key <AE05> { [         k,         K,   asciitilde ] }; // k K ~
+    key <AE06> { [      less,      less,      greater ] }; // < < >
     key <AE07> { [      plus,      plus,     asterisk ] }; // + + *
     key <AE08> { [     minus,     minus,  asciicircum ] }; // - - ^
     key <AE09> { [         0,         0,       dollar ] }; // 0 0 $
@@ -54,13 +54,13 @@ xkb_symbols "basic" {
     key <AB01> { [         y,          Y,      exclam ] }; // y Y !
     key <AB02> { [         x,          X,       colon ] }; // x X :
     key <AB03> { [         o,          O,   semicolon ] }; // o O ;
-    key <AB04> { [    Return,     Return,  apostrophe ] }; // Return Returnt '
-    key <AB05> { [    0xfe03,     0xfe03,  asciitilde ] }; // Altgr Altgr ~
+    key <AB04> { [    Return,     Return,  apostrophe ] }; // Return Return '
+    key <AB05> { [    0xfe03,     0xfe03,    quotedbl ] }; // Altgr Altgr "
     key <AB06> { [         c,          C,          at ] }; // c C @
     key <AB07> { [    0xffe4                          ] }; // Control_R
     key <AB08> { [         g,          G,   ampersand ] }; // g G &
     key <AB09> { [         h,          H,  numbersign ] }; // h H #
-    key <AB10> { [         0,          0              ] }; // 0 0
+    key <AB10> { [   EuroSign,   EuroSign             ] }; // € €
 
     key <SPCE> { [     space,      space,  underscore  ] }; // space space _
 };
@@ -70,6 +70,9 @@ xkb_symbols "es" {
 
     include "takbl(basic)"
     name[Group1]= "Tony Aldon (kbl spanish)";
+
+    // First row
+    key <AE05> { [            k,            K,     ntilde,     Ntilde ] }; // k K ñ Ñ
 
     // Second row
     key <AD02> { [            b,            B, udiaeresis, Udiaeresis ] }; // b B ü Ü
@@ -83,7 +86,6 @@ xkb_symbols "es" {
     // Fourth row
     key <LSGT> { [ questiondown, questiondown, exclamdown             ] }; // ¿ ¿ ¡
     key <AB03> { [            o,            O,     oacute,     Oacute ] }; // o O ó Ó
-    key <AB05> { [       0xfe03,       0xfe03,     ntilde,     Ntilde ] }; // Altgr Altgr ñ Ñ
 };
 
 partial alphanumeric_keys
