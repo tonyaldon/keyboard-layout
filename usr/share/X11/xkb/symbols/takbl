@@ -46,8 +46,8 @@ xkb_symbols "basic" {
     key <AC08> { [         s,         S,         Down ] }; // s S <down>
     key <AC09> { [         r,         R,        Right ] }; // r R <right>
     key <AC10> { [         m,         7,            M ] }; // m 7 M
-    key <AC11> { [  ccedilla,         8,     Ccedilla ] }; // ç 8 Ç
-    key <BKSL> { [         9,         9,        slash ] }; // 9 9 /
+    key <AC11> { [         8,         8,        slash ] }; // ç 8 /
+    key <BKSL> { [         9,         9,        comma ] }; // 9 9 ,
 
     // Fourth row
     key <LSGT> { [                                    ] }; //
@@ -60,7 +60,7 @@ xkb_symbols "basic" {
     key <AB07> { [    0xffe4                          ] }; // Control_R
     key <AB08> { [         g,          G,   ampersand ] }; // g G &
     key <AB09> { [         h,          H,  numbersign ] }; // h H #
-    key <AB10> { [         0,          0,       comma ] }; // 0 0 ,
+    key <AB10> { [         0,          0              ] }; // 0 0
 
     key <SPCE> { [     space,      space,  underscore  ] }; // space space _
 };
