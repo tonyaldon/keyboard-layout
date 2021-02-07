@@ -90,19 +90,26 @@ partial alphanumeric_keys
 xkb_symbols "fr" {
 
     include "takbl(basic)"
-
     name[Group1]= "Tony Aldon (kbl french)";
 
-    key <TLDE> { [ ugrave, Ugrave ] }; // ù Ù
-    key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ icircumflex, Icircumflex ] }; // î Î
-    key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ocircumflex, Ocircumflex ] }; // ô Ô
-    key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ucircumflex, Ucircumflex ] }; // û Û
 
-    key <AD01> { [ w, W, ecircumflex, Ecircumflex ] }; // w W ê Ê
+    // First row
+    key <TLDE> { [ ocircumflex, Ocircumflex,          oe,          OE ] }; // ô Ô œ Œ
+    key <AE01> { [ acircumflex, Acircumflex,          ae,          AE ] }; // â Â æ Æ
+    key <AE02> { [ ucircumflex, Ucircumflex,  udiaeresis,  Udiaeresis ] }; // û Û ü Ü
+    key <AE03> { [ icircumflex, Icircumflex, idiaeresis,  Idiaeresis  ] }; // î Î ï Ï
+    key <AE04> { [           p,           P,  ediaeresis,  Ediaeresis ] }; // p P ë Ë
 
-    key <AC01> { [ a, A, agrave, Agrave ] }; // a A à À
-    key <AC05> { [ BackSpace, BackSpace, semicolon ] }; // BackSpace BackSpace ;
+    // Second row
+    key <AD01> { [           w,           W, ecircumflex, Ecircumflex ] }; // w W ê Ê
+    key <AD02> { [           b,           B,      egrave,      Egrave ] }; // b B è È
+    key <AD03> { [           n,           N,      eacute,      Eacute ] }; // n N é É
 
-    key <AB01> { [ y, Y, egrave, Egrave ] }; // y Y è È
-    key <AB03> { [ o, O, eacute, Eacute ] }; // o O é É
+    // Third row
+    key <AC01> { [           a,           A,      agrave,      Agrave ] }; // a A à À
+    key <AC02> { [           u,           U,      ugrave,      Ugrave ] }; // a A ù Ù
+    key <AC11> { [    ccedilla,           8,    Ccedilla              ] }; // ç 8 Ç
+
+    // Fourth row
+    key <LSGT> { [ ydiaeresis,  Ydiaeresis                            ] }; // ÿ Ÿ
 };
