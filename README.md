@@ -1,12 +1,32 @@
 # About
 
-`keyboard-layout` pools all files needed to set up my own keyboard
-layout (`takbl`).
+`keyboard-layout` pools all files needed to set up my custom
+[XKB](https://wiki.archlinux.org/index.php/X_keyboard_extension)
+keyboard layout (`takbl`).
+
+# Layouts
+
+## takbl basic
 
 <p align="center">
 	<figure>
 	<img src="takbl-basic.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl basic)">
-	<figcaption>Tony Aldon (kbl basic)</figcaption>
+	</figure>
+<p/>
+
+## takbl spanish variant
+
+<p align="center">
+	<figure>
+	<img src="takbl-basic-es.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl spanish)">
+	</figure>
+<p/>
+
+## takbl french variant
+
+<p align="center">
+	<figure>
+	<img src="takbl-basic-fr.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl french)">
 	</figure>
 <p/>
 
