@@ -72,13 +72,13 @@ xkb_symbols "es" {
     name[Group1]= "Tony Aldon (kbl spanish)";
 
     // First row
-    key <AE03> { [       eacute,       Eacute                         ] }; // é É
+    key <AE03> { [       iacute,     Iacute,       iacute,     Iacute ] }; // í Í í Í
     key <AE05> { [            k,            K,     ntilde,     Ntilde ] }; // k K ñ Ñ
 
     // Second row
     key <AD01> { [            w,            W,     oacute,     Oacute ] }; // w W
     key <AD02> { [            b,            B, udiaeresis, Udiaeresis ] }; // b B ü Ü
-    key <AD03> { [            n,            N,     iacute,     Iacute ] }; // n N í Í
+    key <AD03> { [            n,            N,     eacute,     Eacute ] }; // n N é É
 
     // Third row
     key <AC01> { [            a,            A,     aacute,     Aacute ] }; // a A á Á
