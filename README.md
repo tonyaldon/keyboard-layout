@@ -31,16 +31,40 @@ keyboard layout (`takbl`).
 <p/>
 
 # Motivation
-I wanted to have a keyboard layout that realy fit with my daily work and computer use.
-With the standard existing keyboard layouts as *qwerty* or *bépo*, I used to have these problems:
 
-1. After a typing day work, my hands and fingers hurt me,
-2. The more significant keys *Tab, Return, Backspace, Control* are on
-   the keyboard edges and used by the pinky,
-3. I couldn't write freely:
-   * impossible to switch easily between *english*, *french* (which requires characters like *é,è,ê,ù,ç,..*, and *spanish* (which requires characters like *ñ,¡,¿,...*),
-   * impossible to have high focus when coding, due to the random position of vital characters as *[,],(,),{,},#,|,%,@,&,...*.
+1. I want a keyboard layout that fits my needs (I mostly use my
+   keyboard to write **CODE**).
+2. After typing all day long, my hands and fingers use to hurt me.
+   This is principaly due to the use of the **PINKY** on the keys
+   `Backspace`, `Control`, `Enter`, `Shift` and `Tab`.
+   [TypeMatrix](http://www.typematrix.com/) does a great job in this
+   area puting `Backspace` and `Enter` in the center of the
+   keyboard.  But It's not enougth when you're writing code because
+   you want the `Tab` key in the center (_is there anyone who writes
+   code without code completion or snippet expansion almost always
+   bound to the `Tab` key?_).  Moreover, `TypeMatrix` put the symbols
+   `[`, `]`, `(`, `)`, `{`, `}` in the edges, which is bad when you
+   write code.
+3. When you write code, you use the symbols `[`, `]`, `(`, `)`, `{`,
+   `}` constantly, **SO** they **CAN'T** be at the edges of your
+   keyboard layout.  This is why I discarded the keyboard layouts
+   [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and
+   [DVORAK](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout)
+   (also due to the **PINKY** problem of the keys `Backspace`,
+   `Control`, ... described above).
+4. As I'm french, I had a look on
+  [BÉPO](https://en.wikipedia.org/wiki/B%C3%89PO).  Two things are
+  good in the layout: 1) the symbols `[`, `]`, `(`, `)`, `{`, `}` are
+  not at the edges (accessible with key-chords using `Alt Gr` key), and 2)
+  the punctuation symbols `.`, `:`, `,`, `;` are at the center of the
+  keyboard.  However I discarded it because of the **PINKY** problem
+  of the keys `Backspace`, `Control` ... described above.
+5. In addition, I want to access to the symbols `_` `'` `"` `/`
+   `|` `\` `%` `@` `#` `=` `$` `~` `<` `>` `+` `*` `-`
+   `^` `!` `?` without moving my hands.
 
+# Learning a new keyboard layout
+...
 # Installation
 
 This configuration works on linux ubuntu 18.04 LTS.
