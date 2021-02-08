@@ -40,7 +40,7 @@ xkb_symbols "basic" {
     key <AC02> { [         u,         U, bracketright ] }; // u U ]
     key <AC03> { [         i,         I,       period ] }; // i I .
     key <AC04> { [         e,         E,        comma ] }; // e E ,
-    key <AC05> { [ BackSpace, BackSpace,        grave ] }; // BackSpace BackSpace `
+    key <AC05> { [ BackSpace, BackSpace,     quotedbl ] }; // BackSpace BackSpace "
     key <AC06> { [         t,         T,      percent ] }; // t T %
     key <AC07> { [    0xfe03,    0xfe03,         Left ] }; // Altgr Altgr <left>
     key <AC08> { [         s,         S,         Down ] }; // s S <down>
@@ -55,7 +55,7 @@ xkb_symbols "basic" {
     key <AB02> { [         x,          X,       colon ] }; // x X :
     key <AB03> { [         o,          O,   semicolon ] }; // o O ;
     key <AB04> { [    Return,     Return,  apostrophe ] }; // Return Return '
-    key <AB05> { [    0xfe03,     0xfe03,    quotedbl ] }; // Altgr Altgr "
+    key <AB05> { [    0xfe03,     0xfe03,       grave ] }; // Altgr Altgr `
     key <AB06> { [         c,          C,          at ] }; // c C @
     key <AB07> { [    0xffe4                          ] }; // Control_R
     key <AB08> { [         g,          G,   ampersand ] }; // g G &
