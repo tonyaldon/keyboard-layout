@@ -2149,20 +2149,15 @@
          y="719.08148"
          style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#009966;fill-opacity:1;stroke:none">¡</text>
       <text
-         id="text3973"
-         x="303.23175"
-         y="555.74902"
-         style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none">É</text>
-      <text
          id="text3984"
          x="435.64188"
-         y="571.25653"
+         y="573.13153"
          style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none">ñ</text>
       <text
          id="text3986"
-         x="354.52847"
+         x="356.40347"
          y="622.2876"
-         style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none">í</text>
+         style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none">é</text>
       <text
          id="text3988"
          x="303.90347"
@@ -2188,6 +2183,11 @@
          x="411.98175"
          y="555.74902"
          style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none">K</text>
+      <text
+         id="text1409"
+         x="330.15347"
+         y="573.13153"
+         style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none">í</text>
     </g>
   </g>
 </svg>
