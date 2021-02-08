@@ -836,26 +836,6 @@
          style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#009966;fill-opacity:1;stroke:none">:</text>
     </g>
     <g
-       id="g1717"
-       style="fill:#f0f0f0">
-      <text
-         id="text4021"
-         x="497.00165"
-         y="719.5882"
-         style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">&quot;</text>
-      <text
-         id="text3906"
-         x="440.9935"
-         y="719.5882"
-         style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">'</text>
-      <text
-         id="text4435"
-         x="478.50854"
-         y="670.15912"
-         class="T_size_L"
-         style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">`</text>
-    </g>
-    <g
        id="g4338">
       <text
          id="text2173"
@@ -1790,6 +1770,27 @@
            sodipodi:type="star"
            d="m -71.481858,55.376641 0,7.984389 -7.984389,0 0,-7.984389 z" />
       </g>
+    </g>
+    <g
+       id="g1717-9"
+       style="fill:#f0f0f0"
+       transform="translate(0.42403385,0.62876226)">
+      <text
+         id="text4021-1"
+         x="480.12665"
+         y="667.0882"
+         style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">&quot;</text>
+      <text
+         id="text3906-2"
+         x="440.9935"
+         y="719.5882"
+         style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">'</text>
+      <text
+         id="text4435-7"
+         x="499.13354"
+         y="722.35199"
+         class="T_size_L"
+         style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">`</text>
     </g>
     <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#56b8a2;fill-opacity:0.63;fill-rule:nonzero;stroke:#110d06;stroke-width:1.25581;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.943038;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"

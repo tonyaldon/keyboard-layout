@@ -60,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1012,11 +1012,12 @@
     </g>
     <g
        id="g1717"
-       style="fill:#f0f0f0">
+       style="fill:#f0f0f0"
+       transform="translate(0,0.65279329)">
       <text
          id="text4021"
-         x="497.00165"
-         y="719.5882"
+         x="480.12665"
+         y="667.0882"
          style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">&quot;</text>
       <text
          id="text3906"
@@ -1025,8 +1026,8 @@
          style="font-weight:bold;font-size:17.9274px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">'</text>
       <text
          id="text4435"
-         x="478.50854"
-         y="670.15912"
+         x="499.13354"
+         y="722.35199"
          class="T_size_L"
          style="font-weight:bold;font-size:20.9153px;line-height:0%;font-family:'Nimbus Sans L', sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#f0f0f0;fill-opacity:1;stroke:none">`</text>
     </g>
