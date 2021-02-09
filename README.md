@@ -241,6 +241,170 @@ run the commands:
     setxkbmap -query
     setxkbmap -query -verbose 10
 
+## Make your own XKB keyboard layout
+
+In this section, I'll describe how I made `takbl` keyboard layout.
+
+1. In the file `/usr/share/X11/xkb/rules/evdev.xml` I added the
+   following snippet as a child of the node `<layoutList>`:
+
+   ``` xml
+   <layout>
+     <configItem>
+       <name>takbl</name>
+       <shortDescription>TA</shortDescription>
+       <description>Tony Aldon (kbl basic form)</description>
+       <languageList>
+         <iso639Id>fra</iso639Id>
+       </languageList>
+     </configItem>
+     <variantList>
+       <variant>
+         <configItem>
+           <name>es</name>
+           <description>Tony Aldon (kbl Spanish)</description>
+         </configItem>
+       </variant>
+       <variant>
+         <configItem>
+           <name>fr</name>
+           <description>Tony Aldon (kbl French)</description>
+         </configItem>
+       </variant>
+     </variantList>
+   </layout>
+   ```
+
+   This declares a new default keyboard layout named `takbl`
+   (`<name>takbl</name>`) and two variants `es` (`<name>es</name>`)
+   and `fr` (`<name>fr</name>`).
+
+2. Now when `xkb` loads `takbl`, it looks for the file
+   `/usr/share/X11/xkb/symbols/takbl` where the default layout `takbl`
+   and its variants `es` and `fr` are defined by describing the
+   mappings between `keycode names` and `keysymbols`:
+
+   ```
+   default partial alphanumeric_keys
+   xkb_symbols "basic" {
+
+      // map keycode names with keysymbols
+      // this is what defined your keyboard layout
+
+      // Second row
+      key <AD01> { [ w, W             ] }; // w W
+      key <AD02> { [ b, B,  parenleft ] }; // b B (
+      key <AD03> { [ n, N, parenright ] }; // n N )
+
+      // ...
+   }
+
+   partial alphanumeric_keys
+   xkb_symbols "es" {
+
+       include "takbl(basic)"
+
+      // map keycode names with keysymbols
+      // it uses "basic" layout defined aboved overwriting
+      // with the mappings you define here
+
+      // Second row
+      key <AD01> { [ w, W,     oacute,     Oacute ] }; // w W ó Ó
+      key <AD02> { [ b, B, udiaeresis, Udiaeresis ] }; // b B ü Ü
+      key <AD03> { [ n, N,     eacute,     Eacute ] }; // n N é É
+
+      // ...
+   }
+
+   partial alphanumeric_keys
+   xkb_symbols "fr" {
+
+       include "takbl(basic)"
+
+      // map keycode names with keysymbols
+      // it uses "basic" layout defined aboved overwriting
+      // with the mappings you define here
+
+      // Second row
+      key <AD01> { [ w, W, ecircumflex, Ecircumflex ] }; // w W ê Ê
+      key <AD02> { [ b, B,      egrave,      Egrave ] }; // b B è È
+      key <AD03> { [ n, N,      eacute,      Eacute ] }; // n N é É
+
+      // ...
+   }
+   ```
+
+3. To map `keycode names` and `keysymbols` when you define your
+   keyboard layout, you need to know the mapping between `keycode
+   names` and `keycodes` and the `keysymbols` `XKB` uses.
+
+4. You can find the mapping between `keycode names` and `keycodes` in
+   the directory `/usr/share/X11/xkb/keycodes` and in our case,
+   specificaly in the file `/usr/share/X11/xkb/keycodes/evdev`:
+
+   ```
+   default xkb_keycodes "evdev" {
+       minimum = 8;
+       maximum = 255;
+
+       // ...
+
+       <TAB> = 23;
+       <AD01> = 24;
+       <AD02> = 25;
+       <AD03> = 26;
+       <AD04> = 27;
+       <AD05> = 28;
+       <AD06> = 29;
+       <AD07> = 30;
+       <AD08> = 31;
+       <AD09> = 32;
+       <AD10> = 33;
+       <AD11> = 34;
+       <AD12> = 35;
+       <BKSL> = 51;
+       alias <AC12> = <BKSL>;
+       <RTRN> = 36;
+
+       // ...
+
+   }
+   ```
+
+   `<TAB>` is the `keycode name` of the `keycode 23`.
+
+5. You can find the list of all the `keysymbols` in the file
+   `/usr/include/X11/keysymdef.h`:
+
+   ``` C
+   /* ... */
+
+   #define XK_5                             0x0035  /* U+0035 DIGIT FIVE */
+   #define XK_6                             0x0036  /* U+0036 DIGIT SIX */
+   #define XK_7                             0x0037  /* U+0037 DIGIT SEVEN */
+   #define XK_8                             0x0038  /* U+0038 DIGIT EIGHT */
+   #define XK_9                             0x0039  /* U+0039 DIGIT NINE */
+   #define XK_colon                         0x003a  /* U+003A COLON */
+   #define XK_semicolon                     0x003b  /* U+003B SEMICOLON */
+   #define XK_less                          0x003c  /* U+003C LESS-THAN SIGN */
+   #define XK_equal                         0x003d  /* U+003D EQUALS SIGN */
+   #define XK_greater                       0x003e  /* U+003E GREATER-THAN SIGN */
+   #define XK_question                      0x003f  /* U+003F QUESTION MARK */
+   #define XK_at                            0x0040  /* U+0040 COMMERCIAL AT */
+   #define XK_A                             0x0041  /* U+0041 LATIN CAPITAL LETTER A */
+   #define XK_B                             0x0042  /* U+0042 LATIN CAPITAL LETTER B */
+   #define XK_C                             0x0043  /* U+0043 LATIN CAPITAL LETTER C */
+   #define XK_D                             0x0044  /* U+0044 LATIN CAPITAL LETTER D */
+   #define XK_E                             0x0045  /* U+0045 LATIN CAPITAL LETTER E */
+
+   /* ... */
+
+   ```
+
+6. Normally, with the 5 items above, you should be able to start
+   making your own keyboard layout.
+
+
 # Contact
 
 Do you have any question or suggestion? Please, feel free to:
