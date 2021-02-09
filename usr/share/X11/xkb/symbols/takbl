@@ -76,7 +76,7 @@ xkb_symbols "es" {
     key <AE05> { [            k,            K,     ntilde,     Ntilde ] }; // k K ñ Ñ
 
     // Second row
-    key <AD01> { [            w,            W,     oacute,     Oacute ] }; // w W
+    key <AD01> { [            w,            W,     oacute,     Oacute ] }; // w W ó Ó
     key <AD02> { [            b,            B, udiaeresis, Udiaeresis ] }; // b B ü Ü
     key <AD03> { [            n,            N,     eacute,     Eacute ] }; // n N é É
 
