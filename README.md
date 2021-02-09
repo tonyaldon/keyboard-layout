@@ -43,9 +43,9 @@ keyboard layout (`takbl`).
    you want the `Tab` key in the center (_is there anyone who writes
    code without code completion or snippet expansion almost always
    bound to the `Tab` key?_).  Moreover, `TypeMatrix` put the symbols
-   `[`, `]`, `(`, `)`, `{`, `}` in the edges, which is bad when you
+   `[` `]` `(` `)` `{` `}` in the edges, which is bad when you
    write code.
-3. When you write code, you use the symbols `[`, `]`, `(`, `)`, `{`,
+3. When you write code, you use the symbols `[` `]` `(` `)` `{`
    `}` constantly, **SO** they **CAN'T** be at the edges of your
    keyboard layout.  This is why I discarded the keyboard layouts
    [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and
@@ -54,9 +54,9 @@ keyboard layout (`takbl`).
    `Control`, ... described above).
 4. As I'm French, I had a look on
   [BÉPO](https://en.wikipedia.org/wiki/B%C3%89PO).  Two things are
-  good in the layout: 1) the symbols `[`, `]`, `(`, `)`, `{`, `}` are
+  good in the layout: 1) the symbols `[` `]` `(` `)` `{` `}` are
   not at the edges (accessible with key-chords using `Alt Gr` key), and 2)
-  the punctuation symbols `.`, `:`, `,`, `;` are at the center of the
+  the punctuation symbols `.` `:` `,` `;` are at the center of the
   keyboard.  However I discarded it because of the **PINKY** problem
   of the keys `Backspace`, `Control` ... described above.
 5. In addition, I want to access to the symbols `_` `'` `"` `/`
@@ -114,16 +114,17 @@ added two variants `takbl es` and `takbl fr` to the basic layout
 Not that when you load a variant you lose some characters very useful
 when you're programming but not when you are writing standard text.
 It doesn't bother me because:
-1. I'm not a French nor a Spanish novel writer, I write code and code
+1. I'm neither a French nor a Spanish novel writer, I write code and code
    documentation and when I write some Spanish or French I'm not
    writing code.
 2. I almost always write inside
    [emacs](https://www.gnu.org/software/emacs/) where I have a key
    binding with which I can switch quickly between the keyboard
-   layouts `takbl`, `takbl es` and `takbl fr`.
+   layout `takbl` and its variants `takbl es` and `takbl fr`.
 3. By the way, there is always a **TRADEOFF**.
 
-To switch between those variant, you can run the following commands:
+To switch between `takbl` and its variants, you can run the following
+commands:
 
 	setxkbmap -layout takbl              # basic
 	setxkbmap -layout takbl -variant es  # Spanish
@@ -171,7 +172,7 @@ The directory `/usr/share/X11/xkb/` looks like this:
 
 ### How to list all the XKB keyboard layouts?
 
-To see all the keyboard layouts available, list the files in the directory
+To see all the available keyboard layouts, list the files in the directory
 `/usr/share/X11/xkb/symbols/` by running the command:
 
 	ls /usr/share/X11/xkb/symbols/
@@ -182,7 +183,7 @@ I don't know, but in the documention we can read that *On Linux
 systems, the `evdev` rules are most commonly used, on other systems
 the `base` rules are used*.
 
-So like me if you're running Linux Ubuntu, the rules XKB loads are
+So like me if you're running Linux Ubuntu, the rules `XKB` loads are
 in the file `/usr/share/X11/xkb/rules/evdev.xml`.  And if you are
 using `setxkbmap` to load keyboard layouts, running one of those
 following command lines leads to the same result (loading the US
@@ -235,7 +236,7 @@ BACKSPACE="guess"
 
 ### How do I get the current XKB settings?
 
-If you want to have some informations on your current XKB settings ,
+If you want to have some informations on your current `XKB` settings ,
 run the commands:
 
     setxkbmap -query
