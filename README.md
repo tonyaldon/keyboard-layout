@@ -404,6 +404,23 @@ In this section, I'll describe how I made `takbl` keyboard layout.
 6. Normally, with the 5 items above, you should be able to start
    making your own keyboard layout.
 
+## More reading
+
+1. To understand the basics of `XKB` configuration, read
+   [XKB Config](https://www.x.org/releases/current/doc/xorg-docs/input/XKB-Config.html)
+   from [x.org](https://www.x.org).
+1. Find more information about `keycodes`, `keysymbols` and `XKB` in this
+   [basics part](https://www.charvolant.org/doug/xkb/html/node3.html)
+   of the article
+   [An Unreliable Guide to XKB Configuration description](https://www.charvolant.org/doug/xkb/html/xkb.html) from
+   Doug Palmer.
+3. If you want to modify or to make your own keyboard layout, have a
+   look on
+   [X keyboard extension (wiki)](https://wiki.archlinux.org/index.php/X_keyboard_extension)
+   part of the [ArchWiki](https://wiki.archlinux.org/).
+4. If you want a step by step explanation of `XKB`, you can read
+   [A simple humble but comprehensive guide to XKB](https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450)
+   from Damiano Venturin.
 
 # Contact
 
