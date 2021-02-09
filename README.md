@@ -9,25 +9,25 @@ keyboard layout (`takbl`).
 ## takbl basic
 
 <p align="center">
-	<figure>
-	<img src="takbl-basic.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl basic)">
-	</figure>
+  <figure>
+  <img src="takbl-basic.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl basic)">
+  </figure>
 <p/>
 
 ## takbl Spanish variant
 
 <p align="center">
-	<figure>
-	<img src="takbl-basic-es.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl Spanish)">
-	</figure>
+  <figure>
+  <img src="takbl-basic-es.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl Spanish)">
+  </figure>
 <p/>
 
 ## takbl French variant
 
 <p align="center">
-	<figure>
-	<img src="takbl-basic-fr.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl French)">
-	</figure>
+  <figure>
+  <img src="takbl-basic-fr.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl French)">
+  </figure>
 <p/>
 
 # Motivation
@@ -71,14 +71,18 @@ This configuration works on linux ubuntu 18.04 LTS.
 
 To install `takbl` keyboard layout, run the following commands:
 
-	git clone https://github.com/tonyaldon/keyboard-layout
-	cd keyboard-layout
-	make install
+```
+git clone https://github.com/tonyaldon/keyboard-layout
+cd keyboard-layout
+make install
+```
 
 If you want to remove the `takbl` keyboard layout installation, run
 the command:
 
-	make remove
+```
+make remove
+```
 
 Note that when you run `make install`, 4 things happen:
 1. A backup of the files `/usr/share/X11/xkb/rules/evdev.xml` and
@@ -126,9 +130,11 @@ It doesn't bother me because:
 To switch between `takbl` and its variants, you can run the following
 commands:
 
-	setxkbmap -layout takbl              # basic
-	setxkbmap -layout takbl -variant es  # Spanish
-	setxkbmap -layout takbl -variant fr  # French
+```
+setxkbmap -layout takbl              # basic
+setxkbmap -layout takbl -variant es  # Spanish
+setxkbmap -layout takbl -variant fr  # French
+```
 
 # My understanding of XKB
 
@@ -175,7 +181,9 @@ The directory `/usr/share/X11/xkb/` looks like this:
 To see all the available keyboard layouts, list the files in the directory
 `/usr/share/X11/xkb/symbols/` by running the command:
 
-	ls /usr/share/X11/xkb/symbols/
+```
+ls /usr/share/X11/xkb/symbols/
+```
 
 ### Why does XKB choose to load the rules in the file `evdev.xml` and not `base.xml`?
 
@@ -189,8 +197,10 @@ using `setxkbmap` to load keyboard layouts, running one of those
 following command lines leads to the same result (loading the US
 QUERTY keyboard layout):
 
-	setxkbmap -layout us
-	setxkbmap -rules evdev -layout us
+```
+setxkbmap -layout us
+setxkbmap -rules evdev -layout us
+```
 
 ### How to set a default keyboard layout that last across sessions?
 
