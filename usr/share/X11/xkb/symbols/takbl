@@ -69,7 +69,7 @@ partial alphanumeric_keys
 xkb_symbols "es" {
 
     include "takbl(basic)"
-    name[Group1]= "Tony Aldon (kbl spanish)";
+    name[Group1]= "Tony Aldon (kbl Spanish)";
 
     // First row
     key <AE03> { [       iacute,     Iacute,       iacute,     Iacute ] }; // í Í í Í
@@ -92,7 +92,7 @@ partial alphanumeric_keys
 xkb_symbols "fr" {
 
     include "takbl(basic)"
-    name[Group1]= "Tony Aldon (kbl french)";
+    name[Group1]= "Tony Aldon (kbl French)";
 
 
     // First row

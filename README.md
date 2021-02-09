@@ -14,19 +14,19 @@ keyboard layout (`takbl`).
 	</figure>
 <p/>
 
-## takbl spanish variant
+## takbl Spanish variant
 
 <p align="center">
 	<figure>
-	<img src="takbl-basic-es.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl spanish)">
+	<img src="takbl-basic-es.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl Spanish)">
 	</figure>
 <p/>
 
-## takbl french variant
+## takbl French variant
 
 <p align="center">
 	<figure>
-	<img src="takbl-basic-fr.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl french)">
+	<img src="takbl-basic-fr.svg" alt="Tony Aldon basic keyboard layout " title="Tony Aldon (kbl French)">
 	</figure>
 <p/>
 
@@ -52,7 +52,7 @@ keyboard layout (`takbl`).
    [DVORAK](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout)
    (also due to the **PINKY** problem of the keys `Backspace`,
    `Control`, ... described above).
-4. As I'm french, I had a look on
+4. As I'm French, I had a look on
   [BÉPO](https://en.wikipedia.org/wiki/B%C3%89PO).  Two things are
   good in the layout: 1) the symbols `[`, `]`, `(`, `)`, `{`, `}` are
   not at the edges (accessible with key-chords using `Alt Gr` key), and 2)
