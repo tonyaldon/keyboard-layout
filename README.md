@@ -101,16 +101,33 @@ understanding of XKB](#my-understanding-of-xkb)
 
 # Variants
 
-`takbl` comes with the basic form and two variants:
-1. a *spanish* variant that changes the `tild` to the `dead_tild`,
-2. and a *french* variant that changes `dead_acute` to `eacute`,
-   `dead_grave` to `egrave` and `bracketleft` to `agrave`.
+`takbl` is **designed** to be used to **write code**.  However
+sometimes, I write some _Spanish_ or _French_.  For that reason, I
+added two variants `takbl es` and `takbl fr` to the basic layout
+`takbl.`
+
+- For the _Spanish_ layout, I added the following characters: `á` `é`
+  `í` `ó` `ú` `ü` `ñ` `¿` `¡`.
+- For the _French_ layout, I added the following characters: `à` `â`
+  `æ` `é` `è` `ê` `ë` `î` `ï` `ô` `œ` `ù` `û` `ü` `ÿ` `ç`.
+
+Not that when you load a variant you lose some characters very useful
+when you're programming but not when you are writing standard text.
+It doesn't bother me because:
+1. I'm not a French nor a Spanish novel writer, I write code and code
+   documentation and when I write some Spanish or French I'm not
+   writing code.
+2. I almost always write inside
+   [emacs](https://www.gnu.org/software/emacs/) where I have a key
+   binding with which I can switch quickly between the keyboard
+   layouts `takbl`, `takbl es` and `takbl fr`.
+3. By the way, there is always a **TRADEOFF**.
 
 To switch between those variant, you can run the following commands:
 
 	setxkbmap -layout takbl              # basic
-	setxkbmap -layout takbl -variant es  # spanish
-	setxkbmap -layout takbl -variant fr  # french
+	setxkbmap -layout takbl -variant es  # Spanish
+	setxkbmap -layout takbl -variant fr  # French
 
 # My understanding of XKB
 
