@@ -64,7 +64,53 @@ keyboard layout (`takbl`).
    `^` `!` `?` without moving my hands.
 
 # Learning a new keyboard layout
-...
+
+In that section I'm talking to programmers but I'm sure that those
+thoughts can be applied to anyone that works in an area that involves
+a heavy use of the keyboard.
+
+## How to learn a new keyboard layout?
+
+I imagine that there is a lot of literature on _how to learn a new
+keyboard layout_.  For sure, there exists a lot more literature about
+_how to learn anything_.  At the end of the day, I think the only
+**truth about learning** is: **the more you practice the better you'll
+get**.
+
+So if you want to learn a new keyboard layout, don't hesitate too much,
+just spend time on it with passion and that will pay off.
+
+To be clearer, these are the _rules_ I follow that you can apply,
+if you want, whatever keyboard layout you choose to adopt:
+1. be clear on the reasons you choose this layout and not another,
+2. pick any application that helps you practice your typing (accuracy,
+   speed and fluidity).  I use
+   [klavaro](https://klavaro.sourceforge.io/en/index.html).  It is
+   simple and customizable.  As they said in the home page: _Klavaro
+   is libre software that intends to be keyboard and language
+   independent..._,
+3. practice everyday as much as you can,
+4. be patient this will pay off for the rest of your programmer life.
+
+## Why does picking the right keyboard layout matter?
+
+Assuming that you're an average programmer.  Usually, you're going to
+**write code**:
+- 5 days a week,
+- 5 hours a day (the rest is for readings and meetings),
+- at least during 10 years (if it's not 40 or more).
+
+You're going to use your keyboard **13,000 HOURS** (5 x 5 x 52 x 10)
+during those 10 years of programming.  This corresponds to **541 DAYS**
+(13000 / 24).
+
+**THINK ABOUT THAT!**
+
+When I did the math a couple of years ago, I thought it was worth
+spending a few days to think about my keyboard layout and worth
+spending a couple of weeks to learn it.  This is a ridiculous amount
+of time compare to **541 DAYS**.
+
 # Installation
 
 This configuration works on linux ubuntu 18.04 LTS.
