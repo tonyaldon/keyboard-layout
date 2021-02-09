@@ -1,8 +1,22 @@
 # About
 
-`keyboard-layout` pools all files needed to set up my custom
+`keyboard-layout` pools all the needed files to set up my custom
 [XKB](https://wiki.archlinux.org/index.php/X_keyboard_extension)
-keyboard layout (`takbl`).
+keyboard layout (`takbl`) on Linux Ubuntu.
+
+
+
+You can install `takbl` following the step describe in
+ [Installation](#installation) section.
+
+In [Learning a new keyboard layout](#learning-a-new-keyboard-layout)
+section I answer to the questions:
+- [How to learn a new keyboard layout?](#how-to-learn-a-new-keyboard-layout) and,
+- [Why does picking the right keyboard layout matter?](#why-does-picking-the-right-keyboard-layout-matter).
+
+In [My understanding of XKB](#my-understanding-of-xkb) section,
+you can read about how does `XKB` work and how can you make your own `XKB`
+keyboard layout.
 
 # Layouts
 
