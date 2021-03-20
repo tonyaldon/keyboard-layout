@@ -10,10 +10,10 @@ xkb_symbols "basic" {
     key <TLDE> { [     Prior,     Prior               ] }; // <prior>
     key <AE01> { [      Next,      Next               ] }; // <next>
     key <AE02> { [                                    ] }; //
-    key <AE03> { [ braceleft, braceleft,    braceleft ] }; // { { {
+    key <AE03> { [      less, braceleft,    braceleft ] }; // < { {
     key <AE04> { [         p,         P,   braceright ] }; // p P }
-    key <AE05> { [         k,         K,   asciitilde ] }; // k K ~
-    key <AE06> { [      less,      less,      greater ] }; // < < >
+    key <AE05> { [         k,         K,      greater ] }; // k K >
+    key <AE06> { [                                    ] }; //
     key <AE07> { [      plus,      plus,     asterisk ] }; // + + *
     key <AE08> { [     minus,     minus,  asciicircum ] }; // - - ^
     key <AE09> { [         0,         0,       dollar ] }; // 0 0 $
@@ -25,7 +25,7 @@ xkb_symbols "basic" {
     key <AD01> { [         w,         W               ] }; // w W
     key <AD02> { [         b,         B,    parenleft ] }; // b B (
     key <AD03> { [         n,         N,   parenright ] }; // n N )
-    key <AD04> { [         f,         F,     question ] }; // f F ?
+    key <AD04> { [         f,         F,   asciitilde ] }; // f F ~
     key <AD05> { [       Tab,       Tab,        slash ] }; // Tab Tab /
     key <AD06> { [         v,         V,          bar ] }; // v V |
     key <AD07> { [         q,         Q,    backslash ] }; // q Q \
@@ -50,7 +50,7 @@ xkb_symbols "basic" {
     key <BKSL> { [         9,         9,        comma ] }; // 9 9 ,
 
     // Fourth row
-    key <LSGT> { [                                    ] }; //
+    key <LSGT> { [  question,   question,    question ] }; // ? ? ?
     key <AB01> { [         y,          Y,      exclam ] }; // y Y !
     key <AB02> { [         x,          X,       colon ] }; // x X :
     key <AB03> { [         o,          O,   semicolon ] }; // o O ;
