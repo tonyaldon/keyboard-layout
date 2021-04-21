@@ -10,9 +10,9 @@ xkb_symbols "basic" {
     key <TLDE> { [     Prior,     Prior               ] }; // <prior>
     key <AE01> { [      Next,      Next               ] }; // <next>
     key <AE02> { [                                    ] }; //
-    key <AE03> { [      less, braceleft,    braceleft ] }; // < { {
+    key <AE03> { [   greater, braceleft,    braceleft ] }; // > { {
     key <AE04> { [         p,         P,   braceright ] }; // p P }
-    key <AE05> { [         k,         K,      greater ] }; // k K >
+    key <AE05> { [         k,         K               ] }; // k K
     key <AE06> { [                                    ] }; //
     key <AE07> { [      plus,      plus,     asterisk ] }; // + + *
     key <AE08> { [     minus,     minus,  asciicircum ] }; // - - ^
@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <AE12> { [         3,         3,     asterisk ] }; // 3 3 *
 
     // Second row
-    key <AD01> { [         w,         W               ] }; // w W
+    key <AD01> { [         w,         W,         less ] }; // w W <
     key <AD02> { [         b,         B,    parenleft ] }; // b B (
     key <AD03> { [         n,         N,   parenright ] }; // n N )
     key <AD04> { [         f,         F,   asciitilde ] }; // f F ~
