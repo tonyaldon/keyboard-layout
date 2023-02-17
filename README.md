@@ -52,7 +52,7 @@ keyboard layout.
    This is principaly due to the use of the **PINKY** on the keys
    `Backspace`, `Control`, `Enter`, `Shift` and `Tab`.
    [TypeMatrix](http://www.typematrix.com/) does a great job in this
-   area puting `Backspace` and `Enter` in the center of the
+   area putting `Backspace` and `Enter` in the center of the
    keyboard.  But It's not enougth when you're writing code because
    you want the `Tab` key in the center (_is there anyone who writes
    code without code completion or snippet expansion almost always
@@ -127,7 +127,22 @@ of time compare to **541 DAYS**.
 
 # Installation
 
-This configuration works on linux ubuntu 18.04 LTS.
+This configuration works on Ubuntu 18.04 LTS.
+
+Note that to make it works for Ubuntu 22.04 LTS, you have to disable
+`Wayland` to force the login screen to use `Xorg`.  This can be done
+by setting `WaylandEnable` to `false` in the file
+`~/etc/gdm3/custom.conf` like this:
+
+```
+# ...
+
+[daemon]
+# Uncomment the line below to force the login screen to use Xorg
+WaylandEnable=false
+
+# ...
+```
 
 To install `takbl` keyboard layout, run the following commands:
 
