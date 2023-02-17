@@ -127,7 +127,7 @@ of time compare to **541 DAYS**.
 
 # Installation
 
-This configuration works on Ubuntu 18.04 LTS.
+This configuration works on Ubuntu 18.04 LTS and 22.04 LTS.
 
 Note that to make it works for Ubuntu 22.04 LTS, you have to disable
 `Wayland` to force the login screen to use `Xorg`.  This can be done
