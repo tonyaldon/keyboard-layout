@@ -127,22 +127,9 @@ of time compare to **541 DAYS**.
 
 # Installation
 
-This configuration works on Ubuntu 18.04 LTS and 22.04 LTS.
+This configuration works on Ubuntu 22.04 LTS.
 
-Note that to make it works for Ubuntu 22.04 LTS, you have to disable
-`Wayland` to force the login screen to use `Xorg`.  This can be done
-by setting `WaylandEnable` to `false` in the file
-`~/etc/gdm3/custom.conf` like this:
-
-```
-# ...
-
-[daemon]
-# Uncomment the line below to force the login screen to use Xorg
-WaylandEnable=false
-
-# ...
-```
+Note that we have to use `Xorg` instead of the default `Wayland`.
 
 To install `takbl` keyboard layout, run the following commands:
 
@@ -152,28 +139,38 @@ cd keyboard-layout
 make install
 ```
 
-If you want to remove the `takbl` keyboard layout installation, run
-the command:
+Then you have to RESTART your computer so that Ubuntu 22.04 starts
+using `Xorg` (instead of `Wayland`) which is necessary for this X11
+keyboard setup.
+
+If you want to remove `takbl` keyboard layout installation, run the
+command:
 
 ```
 make remove
 ```
 
 Note that when you run `make install`, 4 things happen:
-1. A backup of the files `/usr/share/X11/xkb/rules/evdev.xml` and
-   `/etc/default/keyboard` is made in the directory `.backup`,
-2. The keyboard layout `takbl` is installed by making the following
+
+1. A backup of the files `/usr/share/X11/xkb/rules/evdev.xml`,
+   `/etc/default/keyboard` and `/etc/gdm3/custom.conf` is made in the
+   directory `.backup`,
+
+2. `Wayland` is disable in order to force the login screen to use
+   `Xorg` by making the following symbolic link:
+
+        /etc/gdm3/custom.conf => ./etc/gdm3/custom.conf
+
+3. The keyboard layout `takbl` is installed by making the following
    hardlinks:
 
-        /usr/share/X11/xkb/rules/evdev.xml => usr/share/X11/xkb/rules/evdev.xml
-        /usr/share/X11/xkb/symbols/takbl => usr/share/X11/xkb/symbols/takbl
+        /usr/share/X11/xkb/rules/evdev.xml => ./usr/share/X11/xkb/rules/evdev.xml
+        /usr/share/X11/xkb/symbols/takbl => ./usr/share/X11/xkb/symbols/takbl
 
-3. The keyboard layout `takbl` becomes the default keyboard layout by
+4. The keyboard layout `takbl` becomes the default keyboard layout by
    making the following hardlink:
 
-        /etc/default/keyboard => etc/default/keyboard
-
-4. And the keyboard layout `takbl` is activated for the current session.
+        /etc/default/keyboard => ./etc/default/keyboard
 
 If you want to know more about `XKB`, you can read the section [My
 understanding of XKB](#my-understanding-of-xkb)
