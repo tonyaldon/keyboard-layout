@@ -26,9 +26,9 @@ xkb_symbols "basic" {
     key <AD02> { [         b,         B,    parenleft ] }; // b B (
     key <AD03> { [         n,         N,   parenright ] }; // n N )
     key <AD04> { [         f,         F,        slash ] }; // f F /
-    key <AD05> { [       Tab,       Tab,   asciitilde ] }; // Tab Tab ~
+    key <AD05> { [       Tab,       Tab,    backslash ] }; // Tab Tab \
     key <AD06> { [         v,         V,          bar ] }; // v V |
-    key <AD07> { [         q,         Q,    backslash ] }; // q Q \
+    key <AD07> { [         q,         Q,   asciitilde ] }; // q Q ~
     key <AD08> { [         d,         D,           Up ] }; // d D <up>
     key <AD09> { [         l,         L,        equal ] }; // l L =
     key <AD10> { [         j,         4,            J ] }; // j 4 J
